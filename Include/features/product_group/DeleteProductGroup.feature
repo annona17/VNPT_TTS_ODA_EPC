@@ -71,38 +71,38 @@ Feature: Delete Product Group
   	Then I receive a no product group selected notification 
   	And No product group is deleted
   
-  #@Invalid1
-  #Scenario Outline: Delete 1 product group in active 
-  #	Given I login ODA successful
-  #	And I navigate to product group 
-  #	When I delete product group with code <code>  active 
-  #	And I click Yes in confirm delete popup
-  #	Then I receive cannot delete notification 
-  #	And This product with code <code> is still in database 
-  #
-  #	Examples: 
-    #	| code 	|
-      #| data3	|
+  @Invalid1
+  Scenario Outline: Delete 1 product group in active 
+  	Given I login ODA successful
+  	And I navigate to product group 
+  	When I delete product group active with code <code>
+  	And I click Yes in confirm delete popup
+  	Then I receive cannot delete notification 
+  	And This product with code <code> is still in database 
   
-  #@Invalid2
-  #Scenario Outline: Delete many product groups contain product group in active 
-  #	Given I login ODA successful
-  #	And I navigate to product group 
-  #	When I tick 2 product groups with code1 <code1> and code2 <code2> active 
-  #	And I click icon button delete  
-  #	And I click Yes in confirm delete popup
-  #	Then I receive cannot delete notification 
-  #	And These product with code1 <code1>, code2 <code2> is still in database  
-  #	
-  #	Examples: 
-    #	| code1 	| code2 	|
-      #| data11	| data21	|
+  	Examples: 
+    	| code 		|
+      | VIPx99	|
+  
+  @Invalid2
+  Scenario Outline: Delete many product groups contain product group in active 
+  	Given I login ODA successful
+  	And I navigate to product group 
+  	When I tick 2 product groups active with code1 <code1> and code2 <code2> 
+  	And I click icon button delete  
+  	And I click Yes in confirm delete popup
+  	Then I receive cannot delete notification 
+  	And These product with code1 <code1> and code2 <code2> is still in database  
+  	
+  	Examples: 
+    	| code1 	| code2 	|
+      | data11	| data21	|
   
   
   	
   	
   #@DeleteAll_Invalid 
-  #Scenario Outline: Delete all product group but contain product group active 
+  #Scenario: Delete all product group but contain product group active 
   #	Given I login ODA successful
   #	And I navigate to product group
   #	When I tick checkbox all 

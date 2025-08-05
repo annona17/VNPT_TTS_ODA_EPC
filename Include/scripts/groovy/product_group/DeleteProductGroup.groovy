@@ -220,4 +220,30 @@ class DeleteProductGroup {
 			KeywordUtil.markFailed("Da co ban ghi bi xoa")
 		}
 	}
+
+	@When("I delete product group active with code (.*)")
+	def delete_a_pg_active(String code) {
+		TestObject trashIcon = findTestObject("Object Repository/Page_Root Config/icon_trash_item", [('code'): code])
+		WebUI.waitForElementClickable(trashIcon, 10)
+		WebUI.click(trashIcon)
+	}
+	@Then("I receive cannot delete notification")
+	def receive_cannot_delete_noti() {
+		new NotificationKeywords().verifyNotificationText(
+				findTestObject('Object Repository/Page_Root Config/div_Cannot delete product group in active'),
+				"Cannot delete product group in active"
+				)
+	}
+
+	@When("I tick 2 product groups active with code1 (.*) and code2 (.*)")
+	def delete_2_pg_active(String code1, String code2) {
+		TestObject checkox1 = findTestObject("Object Repository/Page_Root Config/input_checkbox", [('code'): code1])
+		WebUI.waitForElementClickable(checkox1, 10)
+		WebUI.click(checkox1)
+
+		TestObject checkbox2 = findTestObject("Object Repository/Page_Root Config/input_checkbox", [('code'): code2])
+		WebUI.waitForElementClickable(checkbox2, 10)
+		WebUI.click(checkbox2)
+	}
+
 }
