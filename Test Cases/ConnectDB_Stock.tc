@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ConnectDB_Stock</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a288c2ca-2da0-44ec-8ac8-ce54c8736a31</testCaseGuid>
+</TestCaseEntity>

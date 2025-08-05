@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_The start date must be smaller than the end date</name>
+   <tag></tag>
+   <elementGuidId>5227cab2-ac2d-422e-80c2-1ed73ede2f52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Errorerror-msg.error.ERR-400' or . = 'Errorerror-msg.error.ERR-400')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c386c206-ad8f-4034-bae6-d736a2460886</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-toast-message-content</value>
+      <webElementGuid>84d36b64-d74d-41fc-93d2-732cc4ff4576</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>messagecontent</value>
+      <webElementGuid>671517d7-6a95-430e-a4d1-1431cc30af6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The start date must be smaller than the end date</value>
+      <webElementGuid>f77cd53a-848d-4d8e-a563-34ef0cfdca52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;p-toast-message p-toast-message-error&quot;]/div[@class=&quot;p-toast-message-content&quot;]</value>
+      <webElementGuid>405a1e08-07df-47db-80ea-5c0f00b46c05</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Errorerror-msg.error.ERR-400' or . = 'Errorerror-msg.error.ERR-400')]</value>
+      <webElementGuid>cd61407e-7f1e-413a-99a9-034633affda2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Name</name>
+   <tag></tag>
+   <elementGuidId>cba448c5-e384-46a4-909c-bdbd198153b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='undefined_accordioncontent_general']/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Name *&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>79bc4a1d-7d77-42ed-9acd-097c96fc26a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>min-w-[80px] font-bold leading-10</value>
+      <webElementGuid>cc8d9eb3-2c8a-42f0-898f-d5ade63bac5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Name *</value>
+      <webElementGuid>d0353b8a-819e-4ce5-9e0d-919ba21725aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;undefined_accordioncontent_general&quot;)/div[@class=&quot;p-accordioncontent-content&quot;]/div[@class=&quot;flex flex-col gap-4 w-full pt-4&quot;]/div[@class=&quot;flex items-start w-full gap-4&quot;]/span[@class=&quot;min-w-[80px] font-bold leading-10&quot;]</value>
+      <webElementGuid>33587605-6f4a-4670-9688-97b33cafba02</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='undefined_accordioncontent_general']/div/div/div/span</value>
+      <webElementGuid>36caa829-b5a3-49a8-8a9d-846dac752342</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General'])[2]/following::span[1]</value>
+      <webElementGuid>33b25e1a-d1eb-4a9e-9700-1aa2cdaccc3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General'])[1]/following::span[2]</value>
+      <webElementGuid>ef008378-b94c-432c-9ff8-40363b3cd90a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div/div/div/span</value>
+      <webElementGuid>e7218898-d789-45dc-aab4-ddb15806883e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Name *' or . = 'Name *')]</value>
+      <webElementGuid>64802eee-7822-4994-b9a7-193c82482b51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

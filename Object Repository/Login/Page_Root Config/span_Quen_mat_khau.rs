@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Quen_mat_khau</name>
+   <tag></tag>
+   <elementGuidId>c2dad24d-e19b-4ad5-8dbc-115c8e2240a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-primary.font-medium.cursor-pointer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@app/layout']/div/div[2]/div/div/div/div[2]/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Quên mật khẩu?&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>502f985b-c317-48df-b8bb-4b0e6cca14c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-primary font-medium cursor-pointer</value>
+      <webElementGuid>618095ee-6cc6-489b-8730-b871e1074087</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Quên mật khẩu?</value>
+      <webElementGuid>48e4d397-2e6d-41e5-9102-8bcc76ba01a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/layout&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;bg-surface-50 dark:bg-surface-950 flex items-center justify-center min-h-screen min-w-[100vw] overflow-hidden&quot;]/div[@class=&quot;flex flex-col items-center justify-center&quot;]/div[1]/div[@class=&quot;w-full bg-surface-0 dark:bg-surface-900 py-20 px-8 sm:px-20&quot;]/div[@class=&quot;mt-4&quot;]/div[@class=&quot;flex items-center justify-between mt-2 mb-8 gap-8&quot;]/span[@class=&quot;text-primary font-medium cursor-pointer&quot;]</value>
+      <webElementGuid>f44e57eb-b9f8-44e2-8e5e-6e3665c80660</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/layout']/div/div[2]/div/div/div/div[2]/div[2]/span</value>
+      <webElementGuid>828fd683-8932-4d4f-8a14-bbe8333c4b1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ghi nhớ đăng nhập'])[1]/following::span[1]</value>
+      <webElementGuid>c8249075-5905-40c2-b6aa-56b37215eafd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a password'])[1]/following::span[1]</value>
+      <webElementGuid>bc1fc674-e125-4af1-9e2f-6c8258610f61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đăng nhập'])[1]/preceding::span[1]</value>
+      <webElementGuid>85638f2f-fe22-4fac-9269-2d1c236d36b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đăng ký tài khoản'])[1]/preceding::span[2]</value>
+      <webElementGuid>3b54f76d-df5d-4d94-b8d9-4841a6c58f87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Quên mật khẩu?']/parent::*</value>
+      <webElementGuid>e2714968-114f-451b-a3b7-01eeeea46725</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/span</value>
+      <webElementGuid>540936f0-87b4-404d-8fd0-6a515624a33a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Quên mật khẩu?' or . = 'Quên mật khẩu?')]</value>
+      <webElementGuid>f95f861f-433a-4ea1-8b29-d16d051e3d05</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

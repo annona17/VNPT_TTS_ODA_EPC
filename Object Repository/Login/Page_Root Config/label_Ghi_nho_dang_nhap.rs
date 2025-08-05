@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Ghi_nho_dang_nhap</name>
+   <tag></tag>
+   <elementGuidId>7bb2794d-59bb-4113-a1c8-cc3c57df5d68</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.items-center > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@app/layout']/div/div[2]/div/div/div/div[2]/div[2]/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Ghi nhớ đăng nhập&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>86fc2477-f483-4e7a-9b29-fd6c0495f641</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>rememberme1</value>
+      <webElementGuid>873c0244-ea79-4905-8cfa-7a9151740ae1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ghi nhớ đăng nhập</value>
+      <webElementGuid>ca65d4cb-d062-48e2-849d-32591165b694</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/layout&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;bg-surface-50 dark:bg-surface-950 flex items-center justify-center min-h-screen min-w-[100vw] overflow-hidden&quot;]/div[@class=&quot;flex flex-col items-center justify-center&quot;]/div[1]/div[@class=&quot;w-full bg-surface-0 dark:bg-surface-900 py-20 px-8 sm:px-20&quot;]/div[@class=&quot;mt-4&quot;]/div[@class=&quot;flex items-center justify-between mt-2 mb-8 gap-8&quot;]/div[@class=&quot;flex items-center&quot;]/label[1]</value>
+      <webElementGuid>aef5cad6-a9d5-493d-bb0b-a46545156113</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/layout']/div/div[2]/div/div/div/div[2]/div[2]/div/label</value>
+      <webElementGuid>a66367d2-2fa2-42ff-b3cf-6e0a82eff415</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a password'])[1]/following::label[1]</value>
+      <webElementGuid>8eeb7222-41b3-4345-bc83-c2349095c198</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mật khẩu'])[1]/following::label[1]</value>
+      <webElementGuid>c0d47339-0680-4126-b2a0-d6a8a7be222a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quên mật khẩu?'])[1]/preceding::label[1]</value>
+      <webElementGuid>155ab971-c69b-4b62-9240-958b6898e263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đăng nhập'])[1]/preceding::label[1]</value>
+      <webElementGuid>faa793de-7c61-40bf-a689-74f50b8cafd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ghi nhớ đăng nhập']/parent::*</value>
+      <webElementGuid>871c6ff5-10bb-494c-937b-2c96b5de0800</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/label</value>
+      <webElementGuid>72607800-58bb-4a9e-8daf-01c838a187ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Ghi nhớ đăng nhập' or . = 'Ghi nhớ đăng nhập')]</value>
+      <webElementGuid>2691e563-f01a-471d-b555-8c71ab158e13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

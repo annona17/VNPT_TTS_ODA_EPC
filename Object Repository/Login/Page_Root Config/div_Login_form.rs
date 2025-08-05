@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Login_form</name>
+   <tag></tag>
+   <elementGuidId>6c915037-e45b-4ee3-8e7d-ddc061b0e5d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@app/layout']/div/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Hệ Thống Quản Lý Dự Án Tập Trung Tài khoảnMật khẩuEnter a passwordGhi nhớ đăng n&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>98ff06ef-ca2e-49e4-bd9b-f9099c412ddd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full bg-surface-0 dark:bg-surface-900 py-20 px-8 sm:px-20</value>
+      <webElementGuid>57b78631-3097-4abd-bd22-f621fd33641a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Hệ Thống Quản Lý Dự Án Tập Trung Tài khoảnMật khẩuEnter a passwordGhi nhớ đăng nhậpQuên mật khẩu?Đăng nhậpĐăng ký tài khoản</value>
+      <webElementGuid>c9669359-f91d-499c-8cdd-4245f9fa4d30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/layout&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;bg-surface-50 dark:bg-surface-950 flex items-center justify-center min-h-screen min-w-[100vw] overflow-hidden&quot;]/div[@class=&quot;flex flex-col items-center justify-center&quot;]/div[1]/div[@class=&quot;w-full bg-surface-0 dark:bg-surface-900 py-20 px-8 sm:px-20&quot;]</value>
+      <webElementGuid>a65d29ae-68b6-44b2-a9b6-c58f2210d43a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/layout']/div/div[2]/div/div/div</value>
+      <webElementGuid>87602003-01b4-4390-84ad-d9d0d2386b9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overlay'])[1]/following::div[4]</value>
+      <webElementGuid>a1a62fb0-950d-4ff8-adf5-6d7f858a0e91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Static'])[1]/following::div[4]</value>
+      <webElementGuid>68be71db-de8c-4d84-917b-2c95b4076b86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>fb94c929-c9fa-40ad-a4eb-db91f1590c36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Hệ Thống Quản Lý Dự Án Tập Trung Tài khoảnMật khẩuEnter a passwordGhi nhớ đăng nhậpQuên mật khẩu?Đăng nhậpĐăng ký tài khoản' or . = ' Hệ Thống Quản Lý Dự Án Tập Trung Tài khoảnMật khẩuEnter a passwordGhi nhớ đăng nhậpQuên mật khẩu?Đăng nhậpĐăng ký tài khoản')]</value>
+      <webElementGuid>b8f496a7-9d45-4ade-b0ff-401367800137</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_No records selected yet</name>
+   <tag></tag>
+   <elementGuidId>3700a7df-717f-463c-893e-62140b40927e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'No records selected yet.' or . = 'No records selected yet.')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'No records selected yet.' or . = 'No records selected yet.')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>67c05dda-61d8-4dfa-86e0-3a43cc9772fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-toast-detail</value>
+      <webElementGuid>2c4fba22-2a4e-475a-b9df-88df908eb405</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p</name>
+      <type>Main</type>
+      <value>error</value>
+      <webElementGuid>9334b2a5-ff25-4732-8341-fe83ee7c5fd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>detail</value>
+      <webElementGuid>1805d0ef-a7b4-4488-8ec6-51cf955e47b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No records selected yet.</value>
+      <webElementGuid>5bf84df8-8d34-4dde-bb4b-4753e3cadf90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;p-toast-message p-toast-message-error&quot;]/div[@class=&quot;p-toast-message-content&quot;]/div[@class=&quot;p-toast-message-text&quot;]/div[@class=&quot;p-toast-detail&quot;]</value>
+      <webElementGuid>0ea8eb1f-fbb5-446d-9509-5c7de92e3c32</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'No records selected yet.' or . = 'No records selected yet.')]</value>
+      <webElementGuid>4e17d57c-8b54-4441-836c-79aec22a6257</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

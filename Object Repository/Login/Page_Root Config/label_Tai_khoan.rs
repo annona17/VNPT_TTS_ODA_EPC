@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Tai_khoan</name>
+   <tag></tag>
+   <elementGuidId>22aec663-ed99-4889-9297-d50bdfdc3fad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@app/layout']/div/div[2]/div/div/div/div[2]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Tài khoản&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>dc469a07-1be9-47ca-bee8-7099f1a24d90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>email1</value>
+      <webElementGuid>e6dd9612-c376-4d34-9a80-e811805775c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block text-surface-900 dark:text-surface-0 text-xl font-medium mb-2</value>
+      <webElementGuid>b2d6fd6e-33d8-487d-b590-a87ba11e85e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tài khoản</value>
+      <webElementGuid>600b0c44-bc3b-4155-b364-b5f1bb6ad406</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/layout&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;bg-surface-50 dark:bg-surface-950 flex items-center justify-center min-h-screen min-w-[100vw] overflow-hidden&quot;]/div[@class=&quot;flex flex-col items-center justify-center&quot;]/div[1]/div[@class=&quot;w-full bg-surface-0 dark:bg-surface-900 py-20 px-8 sm:px-20&quot;]/div[@class=&quot;mt-4&quot;]/label[@class=&quot;block text-surface-900 dark:text-surface-0 text-xl font-medium mb-2&quot;]</value>
+      <webElementGuid>23867a30-1ed5-42eb-8a2c-cbf92173c1ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/layout']/div/div[2]/div/div/div/div[2]/label</value>
+      <webElementGuid>2acb64dc-bc8d-45ad-92b2-4a7d868c0f50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hệ Thống Quản Lý Dự Án Tập Trung'])[1]/following::label[1]</value>
+      <webElementGuid>b14f778b-9ae6-4eb8-a367-0ebd466baa1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overlay'])[1]/following::label[1]</value>
+      <webElementGuid>13773505-01b4-4e2f-8673-d50efe7ff2fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mật khẩu'])[1]/preceding::label[1]</value>
+      <webElementGuid>77a8cffe-1d60-4a35-ba86-7cef9ddf3d28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a password'])[1]/preceding::label[2]</value>
+      <webElementGuid>8381e3a1-38a1-4392-8d44-9ae7093c0a13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tài khoản']/parent::*</value>
+      <webElementGuid>b2030ac1-36f1-456d-92d0-2483efa4bf48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>e1fe35cf-7b23-4437-adc2-51b9d551e33b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Tài khoản' or . = 'Tài khoản')]</value>
+      <webElementGuid>5bd33b3c-1231-438d-a2c1-9c896c5590e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
