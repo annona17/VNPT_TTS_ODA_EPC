@@ -213,13 +213,15 @@ class EditProductGroup {
 
 	@And("I edit startDate (.*) < today")
 	def enter_startDate_small(String startDate) {
-		WebUI.setText(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/input_ValidFor_startDate"), startDate)
+		TestObject startDateField = findTestObject('Object Repository/Edit_Product_Group/Page_Root Config/input_ValidFor_startDate')
+
+		// Xóa trước rồi gán giá trị ngày mới cho startDate
+		WebUI.executeJavaScript(
+				"arguments[0].value=''; arguments[0].dispatchEvent(new Event('input'));" +
+				"arguments[0].value='" + startDate.toString() + "'; arguments[0].dispatchEvent(new Event('change'))",
+				Arrays.asList(WebUI.findWebElement(startDateField))
+				)
 	}
-	//	@Then("I receive invalid startDate notification")
-	//	def receive_invalid_startDate() {
-	//		new NotificationKeywords.verifyNotificationText(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/div_The start date must be greater than today"),
-	//			 "The start date must be greater than today")
-	//	}
 
 	@And("I edit name (.*) same other product group")
 	def edit_same_name(String name) {

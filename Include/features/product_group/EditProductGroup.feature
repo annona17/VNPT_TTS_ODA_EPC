@@ -13,11 +13,11 @@ Feature: Edit Product group
      
 
     Examples: 
-  		| oldCode	| name 								| code			| description 		| startDate | endDate 	| status | version 	|
-      | data01	| Gói data tháng 1		| data1.1		|	Gói data tháng 1| 01/01/2026| 31/12/2026|In study| 	1   	 	|  
-      | data1.1	| Gói data tháng 1		| data01		|									| 01/01/2026| 31/12/2026|In study| 	1				| 
-      | data01	| Gói data tháng 06   | data06		|									| 01/01/2026| 31/12/2026|In study| 	1				| 
-      | data05	| Gói data tháng 07		| data07		|									| 					| 					|In study| 					|
+  		| oldCode	| name 								| code			| description 		 | startDate | endDate 	 | status | version 	|
+      | data01	| Gói data tháng 1		| data11		|	Gói data tháng 11| 01/01/2026| 31/12/2026|In study| 	1   	 	|  
+      | data11	| Gói data tháng 11		| data11		|									 | 01/01/2026| 31/12/2026|In study| 	1				| 
+      | data02	| Gói data tháng 12   | data12		|									 | 01/01/2026| 31/12/2026|In study| 	1				| 
+      | data05	| Gói data tháng 07		| data07		|									 | 					 | 					 |In study| 					|
       
    
    @Invalid
@@ -61,7 +61,7 @@ Feature: Edit Product group
    
     Examples: 
   		| oldCode 	| name 				|
-      | data01		| Goi data 02	|							 
+      | data01		| VIPx99			|							 
     
    @Invalid
    Scenario Outline: Edit product group when enter the same code 

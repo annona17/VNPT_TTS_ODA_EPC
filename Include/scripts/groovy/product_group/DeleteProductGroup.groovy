@@ -245,5 +245,4 @@ class DeleteProductGroup {
 		WebUI.waitForElementClickable(checkbox2, 10)
 		WebUI.click(checkbox2)
 	}
-
 }
