@@ -4,11 +4,9 @@
    <name>icon_trash_item</name>
    <tag></tag>
    <elementGuidId>dc6f63ea-47c1-453a-b493-ca986e05ca36</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>IMAGE</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -16,12 +14,12 @@
 </value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//span[@class = 'pi pi-trash' and @pgCode = '${pgCode}']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.pi.pi-trash</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'pi pi-trash' and @pgCode = '${pgCode}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

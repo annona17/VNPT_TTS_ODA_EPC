@@ -6,15 +6,14 @@
    <elementGuidId>3700a7df-717f-463c-893e-62140b40927e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
          <value>//div[(text() = 'No records selected yet.' or . = 'No records selected yet.')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value>//div[(text() = 'No records selected yet.' or . = 'No records selected yet.')]</value>
       </entry>
    </selectorCollection>
@@ -22,7 +21,6 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value></value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>

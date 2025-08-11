@@ -6,16 +6,16 @@
    <elementGuidId>04004047-5b47-4627-af9f-5437b50bfac4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Code is required.' or . = 'Code is required.')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::div[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div:nth-of-type(2) > div.flex.content-items.error > div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Code is required.' or . = 'Code is required.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

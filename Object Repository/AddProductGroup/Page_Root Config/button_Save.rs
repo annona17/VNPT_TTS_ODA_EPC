@@ -6,15 +6,19 @@
    <elementGuidId>5e9f3e3b-6ff6-4642-b283-171bcdaa73ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.p-button.p-component.p-button-info.btn-footer.btn-save</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[43]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-button.p-component.p-button-info.btn-footer.btn-save</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>df78cdf5-139a-4a2e-b3fc-41753ba5aa7a</webElementGuid>
+      <webElementGuid>02e89622-1222-41b4-a1ee-d2b6a485349e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-button p-component p-button-info btn-footer btn-save</value>
-      <webElementGuid>60b4b75b-cc34-4098-a9cc-e7225065fa92</webElementGuid>
+      <webElementGuid>d6226c48-be58-4417-a131-9cedf6b969d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d29cced4-f45b-40cd-a656-57e44d02aaae</webElementGuid>
+      <webElementGuid>16efe912-b5a8-44f6-b901-80413e362198</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>b4e184c6-6b75-4632-a02b-223ada10091c</webElementGuid>
+      <webElementGuid>dcdf43ea-415e-4e60-bf8d-8a10c363a750</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>data-pc-name</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>226467aa-8824-4861-a8fd-4f25b37eb529</webElementGuid>
+      <webElementGuid>95211da0-a4ec-4310-ac30-5aa779269130</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-p-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>bdedaed5-2fb1-435a-ac28-59bb426993de</webElementGuid>
+      <webElementGuid>bfc25b1a-8861-4c08-b2e5-cbea0ffa9ae0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>data-p-severity</name>
       <type>Main</type>
       <value>info</value>
-      <webElementGuid>6024d7a9-058f-4fff-a11a-724b8215bc71</webElementGuid>
+      <webElementGuid>33c967c5-17f2-43eb-8dbd-4821a4a66c23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>data-pc-section</name>
       <type>Main</type>
       <value>root</value>
-      <webElementGuid>24c33416-1be8-437d-bb89-408cc4efe8a0</webElementGuid>
+      <webElementGuid>159f09dc-b1a0-4f12-b195-2b0610ac6da7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +97,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>07b8a488-aefb-485d-b12f-2d43c8d74c45</webElementGuid>
+      <webElementGuid>eefde2b3-96f3-4cf8-9498-c3d1e95115e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/div[@class=&quot;p-dialog-mask p-overlay-mask p-overlay-mask-enter&quot;]/div[@class=&quot;p-dialog p-component add-modal&quot;]/div[@class=&quot;p-dialog-content&quot;]/div[@class=&quot;modal-footer space-x-4&quot;]/button[@class=&quot;p-button p-component p-button-info btn-footer btn-save&quot;]</value>
-      <webElementGuid>6310a37a-c15c-40eb-a8cd-c0431d6c500d</webElementGuid>
+      <webElementGuid>fe28bd2c-6f3e-425f-90a9-7c2cae61836b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[43]</value>
-      <webElementGuid>e4c7ced8-3c24-411a-b406-6caa0b4881af</webElementGuid>
+      <webElementGuid>4a87d398-3d34-44be-b0ff-93891e47561f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::button[1]</value>
-      <webElementGuid>b1bd1360-ff62-408b-8021-0b8377fd1f36</webElementGuid>
+      <webElementGuid>8c18967d-4780-4a34-85c7-018e08e3b6c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[2]/following::button[2]</value>
-      <webElementGuid>76f0c8cd-60d6-46fb-92c4-4523d86ce493</webElementGuid>
+      <webElementGuid>5c7e3b01-8419-4124-8326-0857146e3d50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button[2]</value>
-      <webElementGuid>7806e95b-887a-4ffa-b725-59ac0b7494db</webElementGuid>
+      <webElementGuid>9cc0954e-8156-4126-9919-a68e5368d11e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +145,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>ef4e4084-150f-4069-b10a-c2429693d22e</webElementGuid>
+      <webElementGuid>c3eb53d4-c51a-4d12-b51e-0037d6249806</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

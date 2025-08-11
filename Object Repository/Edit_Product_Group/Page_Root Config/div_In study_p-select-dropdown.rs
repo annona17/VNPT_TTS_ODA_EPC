@@ -6,12 +6,12 @@
    <elementGuidId>a67fa00d-a015-4213-91a7-d725905570ac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#pv_id_233 > div.p-select-dropdown</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='pv_id_233']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pv_id_233 > div.p-select-dropdown</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>bd4442de-f348-4af7-9da4-c685ac3e745f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>svg.p-icon.p-select-clear-icon</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.p-icon.p-select-clear-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

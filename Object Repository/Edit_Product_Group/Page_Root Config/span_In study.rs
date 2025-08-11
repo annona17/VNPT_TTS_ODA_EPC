@@ -6,19 +6,19 @@
    <elementGuidId>9d92f32b-1ea2-4363-8023-7afedb3d2732</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='pv_id_162']/span</value>
+         <key>BASIC</key>
+         <value>id(&quot;pv_id_162&quot;)/span[@class=&quot;p-select-label&quot;][count(. | //span[@class = 'p-select-label' and @tabindex = '0' and @role = 'combobox' and @aria-label = 'In study' and @aria-haspopup = 'listbox' and @aria-expanded = 'false' and @aria-controls = 'pv_id_162_list' and @aria-disabled = 'false' and @data-p = 'clearable' and @data-pc-section = 'label' and (text() = 'In study' or . = 'In study')]) = count(//span[@class = 'p-select-label' and @tabindex = '0' and @role = 'combobox' and @aria-label = 'In study' and @aria-haspopup = 'listbox' and @aria-expanded = 'false' and @aria-controls = 'pv_id_162_list' and @aria-disabled = 'false' and @data-p = 'clearable' and @data-pc-section = 'label' and (text() = 'In study' or . = 'In study')])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@aria-haspopup = 'listbox' and @data-p = 'clearable']</value>
+         <key>XPATH</key>
+         <value>//div[@id='pv_id_162']/span</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#pv_id_162 > span.p-select-label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -28,44 +28,44 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7c1cbfe1-411a-4470-8e41-77e24e3941e8</webElementGuid>
+      <webElementGuid>c123a546-c194-4bfc-aa2e-416441815124</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>p-select-label</value>
-      <webElementGuid>6a657506-489d-46c4-8e5c-793100ef7104</webElementGuid>
+      <webElementGuid>877521e2-9150-4ebe-bc74-0cb650576257</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>ffe3b46b-e38a-485c-9442-37982772bf9e</webElementGuid>
+      <webElementGuid>ce23ebb2-f51e-48da-b6a3-1a2f938c6425</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>combobox</value>
-      <webElementGuid>f52e8d07-0596-4b73-8489-ffa68463dd18</webElementGuid>
+      <webElementGuid>d1199846-5db9-4a8e-a1a7-12f1967d4f58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
       <value>In study</value>
-      <webElementGuid>27f4ec9a-e5c5-447d-973e-400f347dc1cb</webElementGuid>
+      <webElementGuid>20a75462-f193-49ef-9357-1652867871fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,31 +73,31 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>listbox</value>
-      <webElementGuid>352750e0-39ee-4e4c-8b29-8165135b200f</webElementGuid>
+      <webElementGuid>9874d7b3-ed8b-4b5e-9a32-fd525f82fb8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>219dc62a-c0db-4eda-b0f1-5d5193de9ab2</webElementGuid>
+      <webElementGuid>3d68ea8d-7b20-4720-b47a-451b1e367e57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-controls</name>
       <type>Main</type>
       <value>pv_id_162_list</value>
-      <webElementGuid>55dbd7d4-e041-48c2-a6e9-7ee47b404888</webElementGuid>
+      <webElementGuid>d841bc1c-5b9b-4365-8b65-19117fbfe039</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e719d0ce-e353-43ba-add6-b186fefc655e</webElementGuid>
+      <webElementGuid>b78f91a9-b178-45a8-b240-456b88ba5dd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -105,31 +105,31 @@
       <name>data-p</name>
       <type>Main</type>
       <value>clearable</value>
-      <webElementGuid>02035185-a132-4190-a097-5d3da1cd5e10</webElementGuid>
+      <webElementGuid>963abf00-c686-43b2-bf20-4c08532c5367</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-pc-section</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>fe13a972-4cf7-49c8-8e2f-19009cf83d13</webElementGuid>
+      <webElementGuid>fa67bf7d-e396-4800-890a-c1bc9397e966</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>In study</value>
-      <webElementGuid>254fbb80-ead2-4f88-bcbd-ddb656f27a39</webElementGuid>
+      <webElementGuid>a9b00bdc-85aa-4e98-8b75-cef86b184fb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pv_id_162&quot;)/span[@class=&quot;p-select-label&quot;]</value>
-      <webElementGuid>6977fa65-6105-45a5-a9c2-b24ec8377006</webElementGuid>
+      <webElementGuid>516b1fed-135a-4d0c-8288-a1fcb56432c0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -137,7 +137,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pv_id_162']/span</value>
-      <webElementGuid>463550eb-6bca-4156-98c1-1f156ac1bd14</webElementGuid>
+      <webElementGuid>2a9404ce-f1f1-4511-adc1-c3762bbc7531</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::span[1]</value>
-      <webElementGuid>72307f6d-3240-4067-a822-e415830aef9d</webElementGuid>
+      <webElementGuid>2d0a10d8-8e86-4ac7-8b8c-405536f5b47f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -153,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ValidFor'])[1]/following::span[6]</value>
-      <webElementGuid>c11ad85c-1afc-44b1-9b5d-6b1c4d120b4d</webElementGuid>
+      <webElementGuid>2f32281b-51bf-443e-8a6c-9f47132a6a43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,7 +161,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Version'])[1]/preceding::span[1]</value>
-      <webElementGuid>0f28c8a7-5770-4e03-9098-b196de8b37a0</webElementGuid>
+      <webElementGuid>3ecbb1cd-0675-42ce-bda6-f8c5b537973a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -169,7 +169,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::span[4]</value>
-      <webElementGuid>d564d666-e982-441d-abcd-22832d509317</webElementGuid>
+      <webElementGuid>f708a7f1-0c33-4fa4-81c8-f79cace9f601</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -177,7 +177,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='In study']/parent::*</value>
-      <webElementGuid>b7f34930-782c-4d13-a32b-10e53486cb2f</webElementGuid>
+      <webElementGuid>2adb7a8f-aa52-4fa9-8fad-324fae30f887</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -185,7 +185,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div[2]/div/span</value>
-      <webElementGuid>621fd743-e511-4a16-b6ea-7784a8a1cc83</webElementGuid>
+      <webElementGuid>7f38427e-4d22-4ab3-9d8c-cdaa5b837626</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -193,6 +193,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'In study' or . = 'In study')]</value>
-      <webElementGuid>e66996dd-57c6-4b09-9f59-d2e88bbe7157</webElementGuid>
+      <webElementGuid>0ab4660a-f50c-4e48-aa5c-706aaae8b3df</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

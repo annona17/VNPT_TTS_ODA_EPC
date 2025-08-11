@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input__Code_edit</name>
+   <tag></tag>
+   <elementGuidId>377bd5e0-e566-4fa3-96a2-601f9ba257b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='C025_CurrentProductProperty 5']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>6ddfcd77-f8c1-4140-8fe6-14cd879f11e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>ed34b992-7cb2-48df-9b63-bd96321fd247</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-filled w-full h-[40px]</value>
+      <webElementGuid>feb7ff2d-dd45-4664-85b1-b94084475020</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter code</value>
+      <webElementGuid>dbef4e86-9c17-4a19-85d1-9f8edb0ad5b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>inputtext</value>
+      <webElementGuid>00712f33-34c2-4ba3-b758-72f05dfee117</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>fc0b2ca9-2e99-4f98-bffd-985552b89cf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>C025_CurrentProductProperty 5</value>
+      <webElementGuid>da9bd7b7-5813-4351-abf9-8162e6b073e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-general&quot;)/div[@class=&quot;modal-content&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;flex p-2&quot;]/div[@class=&quot;flex w-[65%]&quot;]/input[@class=&quot;p-inputtext p-component p-filled w-full h-[40px]&quot;]</value>
+      <webElementGuid>45d423d4-66e8-477b-a379-c8c267cb42f2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='C025_CurrentProductProperty 5']</value>
+      <webElementGuid>d95b82c2-2e4d-45b9-8e1d-49ee9d645cde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-general']/div[3]/div[2]/div/div/input</value>
+      <webElementGuid>4d25700b-6526-4ff3-bed1-a6d9b06a1d6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/input</value>
+      <webElementGuid>8e7877e1-c76d-4b18-be82-5f5fdb53a8bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Enter code']</value>
+      <webElementGuid>49b1098d-56fa-4116-a8aa-cf1209e69197</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

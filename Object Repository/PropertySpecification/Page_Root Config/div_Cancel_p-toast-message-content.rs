@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Noti_Product Group updated successfully</name>
+   <name>div_Cancel_p-toast-message-content</name>
    <tag></tag>
-   <elementGuidId>e091af2a-a847-47d3-8589-ede61b2ec000</elementGuidId>
+   <elementGuidId>0dbba45f-1aac-410d-9fce-6e2c4e7cf1cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.p-toast-message-content</value>
+         <key>BASIC</key>
+         <value>//div[@class = 'p-toast-message-content' and (text() = 'ErrorName is unique.' or . = 'ErrorName is unique.')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-toast-message-content</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2e6da230-a631-4055-8223-3f25a2834eee</webElementGuid>
+      <webElementGuid>f79585ab-b85a-4c5c-9046-250d26d0c662</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-toast-message-content</value>
-      <webElementGuid>2f74eab2-35a8-4503-879e-71cae756a4f5</webElementGuid>
+      <webElementGuid>68e06910-f6bd-419c-ba41-964b5d16d06b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,23 +43,23 @@
       <name>data-pc-section</name>
       <type>Main</type>
       <value>messagecontent</value>
-      <webElementGuid>1831e2d0-7cd6-4083-a292-01c03a57921c</webElementGuid>
+      <webElementGuid>0a91e3fe-0a8d-41f7-b616-f91e8fe3e149</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>NotificationProduct Group updated successfully.</value>
-      <webElementGuid>6027cfaf-e089-4d9b-87a9-cb95fd55a9ec</webElementGuid>
+      <value>ErrorName is unique.</value>
+      <webElementGuid>8048bb45-5d5e-41ed-8fe6-ad08b2c175e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;p-toast p-component p-toast-top-right&quot;]/div[1]/div[@class=&quot;p-toast-message p-toast-message-success&quot;]/div[@class=&quot;p-toast-message-content&quot;]</value>
-      <webElementGuid>0bff956c-3a23-459c-933b-8270ea1d0d5e</webElementGuid>
+      <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/div[@class=&quot;p-toast p-component p-toast-top-right&quot;]/div[1]/div[@class=&quot;p-toast-message p-toast-message-error p-toast-message-leave-active p-toast-message-leave-to&quot;]/div[@class=&quot;p-toast-message-content&quot;]</value>
+      <webElementGuid>85a75225-2dbd-4efd-8939-d347aacfa514</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[7]</value>
-      <webElementGuid>5d519f8e-9445-4499-9c7e-b8477096fc37</webElementGuid>
+      <webElementGuid>161f6d67-c0a4-405b-a458-d9239f58965f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::div[7]</value>
-      <webElementGuid>530336b9-76ca-40bc-b3d0-d6f68eccfdf6</webElementGuid>
+      <webElementGuid>ce7d4693-3876-40c6-91d2-a1981e52fc6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,14 +83,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div</value>
-      <webElementGuid>36d496bf-ba85-433c-8e27-60dcc6bd8158</webElementGuid>
+      <webElementGuid>9a86f49c-4e03-4896-bdc6-dd0a91596cdf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'NotificationProduct Group updated successfully.' or . = 'NotificationProduct Group updated successfully.')]</value>
-      <webElementGuid>48649a76-43e6-46db-a300-50d08cb0721d</webElementGuid>
+      <value>//div[(text() = 'ErrorName is unique.' or . = 'ErrorName is unique.')]</value>
+      <webElementGuid>2950e3c3-af0c-4bd6-8144-3314a6141af5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

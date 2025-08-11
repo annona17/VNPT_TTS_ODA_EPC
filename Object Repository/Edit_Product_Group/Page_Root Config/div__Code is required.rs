@@ -6,12 +6,12 @@
    <elementGuidId>adba615a-5a75-4cb2-a41e-92ec74bac415</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.p-message-text</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='pv_id_135_accordioncontent_general']/div/div/div[2]/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-message-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

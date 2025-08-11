@@ -6,16 +6,15 @@
    <elementGuidId>dbf9c85a-eb32-40b3-b1da-bb731249b69f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'item' and (text() = 'Property Management' or . = 'Property Management')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div[2]/div/div[17]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div[2]/div/div[17]</value>
+         <key>BASIC</key>
+         <value>//div[@class = 'item' and (text() = 'Property Management' or . = 'Property Management')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

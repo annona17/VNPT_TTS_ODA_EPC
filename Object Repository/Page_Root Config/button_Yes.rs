@@ -10,11 +10,11 @@
          <value>(//button[@type='button'])[42]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and (text() = 'Yes' or . = 'Yes') and @ref_element = 'Object Repository/Page_Root Config/div_YesNo']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Yes' or . = 'Yes') and @ref_element = 'Object Repository/Page_Root Config/div_YesNo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

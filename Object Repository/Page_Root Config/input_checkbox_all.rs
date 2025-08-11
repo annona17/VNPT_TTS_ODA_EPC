@@ -6,16 +6,16 @@
    <elementGuidId>c1c74254-e350-4bae-ada9-6c957ee349e7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'checkbox']</value>
+         <key>XPATH</key>
+         <value>//table//thead//input[@type='checkbox']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>input.p-checkbox-input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//table//thead//input[@type='checkbox']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

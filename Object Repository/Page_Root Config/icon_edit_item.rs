@@ -10,12 +10,12 @@
          <value>//tr[td[text()='${code}']]//span[@class='pi pi-pen-to-square']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//span[@class = 'pi pi-pen-to-square']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.pi.pi-pen-to-square</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'pi pi-pen-to-square']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

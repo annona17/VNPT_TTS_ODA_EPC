@@ -74,13 +74,6 @@ class AddProductGroup {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/AddProductGroup/Page_Root Config/div_Edit_ProductGroup_form'), 5)
 	}
 
-	@And("This product group with name (.*) and code (.*) is in database")
-	def checkDB(String name, String code) {
-		def query = new Document("name", name).append("code", code)
-		def docs = MongoUtils.findDocuments("ProductPropertyManagement", "ProductGroup", query, 1)
-		println(docs[0].toJson())
-	}
-
 	@And("I empty name (.*) and enter valid code (.*), enter valid description (.*)")
 	def empty_require_name(String name, String code, String description) {
 		WebUI.callTestCase(findTestCase("Test Cases/ProductGroup/Add_Product_Group"),
@@ -108,16 +101,6 @@ class AddProductGroup {
 				findTestObject('Object Repository/AddProductGroup/Page_Root Config/div_Code is required'),
 				"Code is required"
 				)
-	}
-	@And("This product group with name (.*) and code (.*) is NOT in database")
-	def checkDB_invalid(String name, String code) {
-		def query = new Document("name", name).append("code", code)
-		def docs = MongoUtils.findDocuments("ProductPropertyManagement", "ProductGroup", query, 1)
-		if (docs.isEmpty()) {
-			KeywordUtil.markPassed("This product with name $name and code $code is not saved in database")
-		}else {
-			KeywordUtil.markFailedAndStop("This product with name $name and code $code is saved in database")
-		}
 	}
 
 	@And("I enter the same name (.*) and enter valid code (.*), enter valid description (.*)")

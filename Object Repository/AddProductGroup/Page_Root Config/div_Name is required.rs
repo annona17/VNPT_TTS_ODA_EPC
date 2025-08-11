@@ -4,15 +4,9 @@
    <name>div_Name is required</name>
    <tag></tag>
    <elementGuidId>c13488bb-5f2e-488d-95a3-597ef0653747</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Name is required.' or . = 'Name is required.')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,6 +15,10 @@
       <entry>
          <key>CSS</key>
          <value>div.flex.content-items.error > div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Name is required.' or . = 'Name is required.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

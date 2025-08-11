@@ -6,12 +6,12 @@
    <elementGuidId>9a4533e2-d44c-4f6d-861b-8d8f630f5386</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#numeric</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='numeric']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#numeric</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

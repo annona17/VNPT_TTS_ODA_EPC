@@ -6,12 +6,12 @@
    <elementGuidId>026b6e28-8adc-4276-855b-2f66fdf86928</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>svg.p-icon.p-accordionheader-toggle-icon</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='General'])[2]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.p-icon.p-accordionheader-toggle-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_edit_item</name>
+   <tag></tag>
+   <elementGuidId>70fd612a-8c7d-40a8-9b9e-788537d16a48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'pi pi-pen-to-square']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[td[text()='${code}']]//span[@class='pi pi-pen-to-square']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.pi.pi-pen-to-square</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f7eb451a-c52e-4a80-bb87-fdb1df6c9d43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pi pi-pen-to-square</value>
+      <webElementGuid>cb6a0869-8880-4c03-acc2-290d2ab7a990</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;property flex h-max parent-container overflow-y-hidden&quot;]/div[1]/div[@class=&quot;p-card p-component !rounded-none bg-white h-full card-event w-full&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;data-table&quot;]/div[@class=&quot;p-datatable p-component p-datatable-scrollable p-datatable-flex-scrollable whitespace-pre-wrap&quot;]/div[@class=&quot;p-datatable-table-container&quot;]/table[@class=&quot;p-datatable-table p-datatable-scrollable-table&quot;]/tbody[@class=&quot;p-datatable-tbody&quot;]/tr[@class=&quot;p-row-even&quot;]/td[5]/div[@class=&quot;flex gap-3 items-center&quot;]/div[1]/a[1]/span[@class=&quot;pi pi-pen-to-square&quot;]</value>
+      <webElementGuid>a1958637-e4c8-467a-a692-d04470f9caaa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div[2]/div/div/table/tbody/tr/td[5]/div/div/a/span</value>
+      <webElementGuid>3e0eae4c-c586-42d8-9b8f-7d6a69be84bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/div/div/a/span</value>
+      <webElementGuid>db5a5f4b-18d8-4b27-9d6e-4e0e8046460b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

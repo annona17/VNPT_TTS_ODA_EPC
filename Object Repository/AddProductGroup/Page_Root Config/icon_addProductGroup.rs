@@ -6,16 +6,15 @@
    <elementGuidId>8673750a-1818-4968-9616-fa13daf4ff00</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//i[@class = 'pi pi-plus text-[15px] font-black']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div/div/div[2]/button/i</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'pi pi-plus text-[15px] font-black']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,12 +27,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>56ef6b31-5aec-469c-af7f-4b72b20531a5</webElementGuid>
+      <webElementGuid>237c3df2-dc07-4c03-b403-877627190c23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>pi pi-plus text-[15px] font-black</value>
-      <webElementGuid>ac1d40be-2947-4346-a451-5c15c0bc3865</webElementGuid>
+      <webElementGuid>faf5315b-44f9-498f-8106-f2c5c05d4844</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +48,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;product-group flex h-full overflow-hidden parent-container overflow-y-hidden&quot;]/div[@class=&quot;flex-1&quot;]/div[@class=&quot;p-card p-component !rounded-none bg-white h-full&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;add-search&quot;]/div[@class=&quot;p-inputgroup&quot;]/div[@class=&quot;p-inputgroupaddon&quot;]/button[@class=&quot;p-button p-component p-button-icon-only btn-action&quot;]/i[@class=&quot;pi pi-plus text-[15px] font-black&quot;]</value>
-      <webElementGuid>9ef9b7cb-d20c-4d9d-b6bd-c9e702609fdf</webElementGuid>
+      <webElementGuid>4b8caee7-306b-4523-a61b-d0779a9ff19f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +56,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div/div/div[2]/button/i</value>
-      <webElementGuid>b97d1e93-8ddd-42b6-9a4a-92aaff448996</webElementGuid>
+      <webElementGuid>bc679ff8-a17d-4eba-b57e-be94f1996928</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,6 +64,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/button/i</value>
-      <webElementGuid>ffbfef2c-9651-495a-9ebb-2aa95884a991</webElementGuid>
+      <webElementGuid>7202ed19-fe01-4a8f-bc4b-b8f8441d2743</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

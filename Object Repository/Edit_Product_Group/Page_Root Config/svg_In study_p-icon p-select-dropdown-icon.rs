@@ -6,12 +6,12 @@
    <elementGuidId>3a29fc71-1a7f-43d5-bad7-ce9c70c3bc54</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#pv_id_233 > div.p-select-dropdown > svg.p-icon.p-select-dropdown-icon</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::*[name()='svg'][2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pv_id_233 > div.p-select-dropdown > svg.p-icon.p-select-dropdown-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

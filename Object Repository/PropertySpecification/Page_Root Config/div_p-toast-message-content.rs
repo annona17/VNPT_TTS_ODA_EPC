@@ -1,35 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_The start date must be smaller than the end date</name>
+   <name>div_p-toast-message-content</name>
    <tag></tag>
-   <elementGuidId>5227cab2-ac2d-422e-80c2-1ed73ede2f52</elementGuidId>
+   <elementGuidId>8ae57724-1667-4f44-950a-ccacf38dc9c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[(text() = 'Errorerror-msg.error.ERR-400' or . = 'Errorerror-msg.error.ERR-400')]</value>
+         <value>//div[(text() = 'NotificationUpdate property specification successfully.' or . = 'NotificationUpdate property specification successfully.')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value></value>
-      </entry>
-   </smartLocatorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c386c206-ad8f-4034-bae6-d736a2460886</webElementGuid>
+      <webElementGuid>79933702-d3f7-4c47-b746-d69b53875a3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-toast-message-content</value>
-      <webElementGuid>84d36b64-d74d-41fc-93d2-732cc4ff4576</webElementGuid>
+      <webElementGuid>c2475703-c73d-4a9f-b9bb-a70349ea0aed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,30 +39,30 @@
       <name>data-pc-section</name>
       <type>Main</type>
       <value>messagecontent</value>
-      <webElementGuid>671517d7-6a95-430e-a4d1-1431cc30af6c</webElementGuid>
+      <webElementGuid>5627b9bc-f8a6-424b-a2ff-9df94c03aa28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>The start date must be smaller than the end date</value>
-      <webElementGuid>f77cd53a-848d-4d8e-a563-34ef0cfdca52</webElementGuid>
+      <value>NotificationUpdate property specification successfully.</value>
+      <webElementGuid>4b7f0714-1e6e-4bb1-9f6b-cb71d8f4b768</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/div[@class=&quot;p-toast-message p-toast-message-error&quot;]/div[@class=&quot;p-toast-message-content&quot;]</value>
-      <webElementGuid>405a1e08-07df-47db-80ea-5c0f00b46c05</webElementGuid>
+      <value>/div[@class=&quot;p-toast-message p-toast-message-success&quot;]/div[@class=&quot;p-toast-message-content&quot;]</value>
+      <webElementGuid>50e4d629-d122-44f6-9139-59f14047fa6b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Errorerror-msg.error.ERR-400' or . = 'Errorerror-msg.error.ERR-400')]</value>
-      <webElementGuid>cd61407e-7f1e-413a-99a9-034633affda2</webElementGuid>
+      <value>//div[(text() = 'NotificationUpdate property specification successfully.' or . = 'NotificationUpdate property specification successfully.')]</value>
+      <webElementGuid>1b1351f9-8e15-477f-80d2-74ab4ffa492c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

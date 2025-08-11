@@ -65,8 +65,19 @@ class Common {
 		WebUI.callTestCase(findTestCase("Test Cases/Common/Navigate_To_Product_Group"), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-//	@When("I navigate to edit product group form with oldCode (.*)")
-//	def navigae_to_edit_product_group() {
-//		WebUI.callTestCase(findTestCase(""))
-//	}
+	//div[contains(@class, 'p-toast-message-content') and contains(., '${text}')]
+	@Then("I receive notification with text (.*)")
+	def receive_noti_with_text(String text) {
+		TestObject message = findTestObject("Object Repository/Page_Root Config/Notification_popup", [('text'): text])
+		WebUI.waitForElementPresent(message, 10)
+		WebUI.waitForElementVisible(message, 5)
+		String actualText = WebUI.getText(message)
+		println(">>> Actual Notification: " + actualText)
+		assert actualText.contains(text)
+	}
+
+	@And("I navigate to Property Specification")
+	def navigate_to_property_specification() {
+		WebUI.callTestCase(findTestCase("Test Cases/Common/Navigate_To_Property_Specification"), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 }

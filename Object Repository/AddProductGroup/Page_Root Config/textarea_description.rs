@@ -6,12 +6,12 @@
    <elementGuidId>3682ec31-d27a-4426-a05c-17eee096a632</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>textarea.p-textarea.p-component.w-full</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//textarea</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.p-textarea.p-component.w-full</value>
       </entry>
       <entry>
          <key>BASIC</key>

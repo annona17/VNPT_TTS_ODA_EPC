@@ -4,19 +4,16 @@
    <name>icon_trash_many</name>
    <tag></tag>
    <elementGuidId>26e2e6f3-7b32-485f-b6e2-d61f88eb482c</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div/div/div/div/div[2]/button[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>

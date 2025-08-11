@@ -6,16 +6,16 @@
    <elementGuidId>8d794568-d051-4e41-898b-b55fd27104d6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Errorerror-msg.error.ERR-PCE-001' or . = 'Errorerror-msg.error.ERR-PCE-001')]</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[7]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.p-toast-message-content</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[7]</value>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Errorerror-msg.error.ERR-PCE-001' or . = 'Errorerror-msg.error.ERR-PCE-001')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

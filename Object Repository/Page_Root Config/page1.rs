@@ -6,12 +6,12 @@
    <elementGuidId>275e3073-59e8-4c54-b302-cd4a475402f7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.p-paginator-page.p-paginator-page-selected</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[38]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-paginator-page.p-paginator-page-selected</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

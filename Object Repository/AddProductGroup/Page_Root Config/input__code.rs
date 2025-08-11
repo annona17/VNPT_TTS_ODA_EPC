@@ -6,16 +6,15 @@
    <elementGuidId>abeb1ff3-a88f-4b60-acbe-63411b3ab31d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @placeholder = 'Enter Code']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//input[@type='text'])[3]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @placeholder = 'Enter Code']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,12 +27,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>86413c2d-2358-4890-be67-c8becf855851</webElementGuid>
+      <webElementGuid>f94ce5ac-5796-4676-a319-8c7e8e534d93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +40,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>2d229559-7bdd-4c11-a894-907da4e8854b</webElementGuid>
+      <webElementGuid>cf245ec8-508f-42b9-8f94-47fcfb9a8772</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +48,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-inputtext p-component h-[40px] w-full</value>
-      <webElementGuid>d7bb8a08-7f11-4571-ac95-dd135d53b562</webElementGuid>
+      <webElementGuid>b52a89fa-9240-4de7-b824-86615c3fd036</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +56,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Enter Code</value>
-      <webElementGuid>41404e07-04b0-40ae-9ccd-2f35361d6480</webElementGuid>
+      <webElementGuid>65ddb036-4221-431a-9195-20adc73874e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +64,7 @@
       <name>data-pc-name</name>
       <type>Main</type>
       <value>inputtext</value>
-      <webElementGuid>8ad9747b-756f-44fd-89c6-b1fadb50456b</webElementGuid>
+      <webElementGuid>824ab6f5-ec93-469d-8387-d13c8a320996</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +72,7 @@
       <name>data-pc-section</name>
       <type>Main</type>
       <value>root</value>
-      <webElementGuid>aeb101b1-bda2-4a4f-ba30-117ad32cd9cf</webElementGuid>
+      <webElementGuid>d3db80f5-3b38-4359-a3ec-019d5dd43b26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +80,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/div[@class=&quot;p-dialog-mask p-overlay-mask p-overlay-mask-enter&quot;]/div[@class=&quot;p-dialog p-component add-modal&quot;]/div[@class=&quot;p-dialog-content&quot;]/div[@class=&quot;modal-content&quot;]/div[2]/div[@class=&quot;flex content-items p-2&quot;]/div[@class=&quot;flex items-center&quot;]/input[@class=&quot;p-inputtext p-component h-[40px] w-full&quot;]</value>
-      <webElementGuid>44bfc0a5-133d-4cca-ac8c-4e2dd80e11d6</webElementGuid>
+      <webElementGuid>c289763e-2bc2-453f-9779-3983ea981ce4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,7 +88,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@type='text'])[3]</value>
-      <webElementGuid>5a9bef5d-6e21-42f7-9304-11bc63119e82</webElementGuid>
+      <webElementGuid>04f526c7-39d6-4a91-92c3-0511c7f651d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +96,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/input</value>
-      <webElementGuid>73e1f4d2-cae6-45f2-b0cc-e69880e89c3b</webElementGuid>
+      <webElementGuid>b52f19f3-e5bf-44a0-987c-2c9a380c4196</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +104,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Enter Code']</value>
-      <webElementGuid>bbbefafc-bb69-418b-bb61-c9e35b4813af</webElementGuid>
+      <webElementGuid>c15b2301-a0a2-4fc6-8f6a-b993c5a0314c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

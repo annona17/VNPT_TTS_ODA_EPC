@@ -6,12 +6,12 @@
    <elementGuidId>d8054773-e271-4a04-ac84-739af73ae916</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.p-dialog.p-component.confirm-remove-dialog</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[4]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-dialog.p-component.confirm-remove-dialog</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

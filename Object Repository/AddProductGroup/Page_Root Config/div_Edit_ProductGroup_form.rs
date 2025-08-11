@@ -11,12 +11,12 @@
          <value>Screenshots/Targets/Page_Root Config/div_Edit_ProductGroup_form.png</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.h-full.flex.flex-col.overflow-auto</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='pv_id_107_tabpanel_General']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.h-full.flex.flex-col.overflow-auto</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

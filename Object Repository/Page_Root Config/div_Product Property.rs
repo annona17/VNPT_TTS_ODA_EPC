@@ -6,15 +6,18 @@
    <elementGuidId>b49d6e4a-790a-4ee0-9a8a-c41fdf56aa5a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//div[@class = 'item' and (text() = 'Product Property' or . = 'Product Property')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div[2]/div/div[3]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,20 +27,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ca37f799-2ff3-4347-b418-b19bfde4d5dc</webElementGuid>
+      <webElementGuid>14e0a80e-72e4-4ab7-ab26-305fa6cdc8b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>item</value>
-      <webElementGuid>f6570d63-8f1b-415a-aec8-3b055d5c9c5f</webElementGuid>
+      <webElementGuid>ef76ccc0-960c-45d3-b303-ac10e211d08a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Product Property</value>
-      <webElementGuid>942f3f60-e071-4ced-b9e2-e37c8108ebbc</webElementGuid>
+      <webElementGuid>4666d714-e34c-4b58-bb80-33379c49b8ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;products&quot;]/div[@class=&quot;product-offer-list&quot;]/div[@class=&quot;item&quot;]</value>
-      <webElementGuid>7c3b4372-7219-4572-a357-ae0b30cdece7</webElementGuid>
+      <webElementGuid>97679cc1-bf86-4aba-ad03-b6bc95627902</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div[2]/div/div[3]</value>
-      <webElementGuid>197f7e2e-8f35-4e73-ab08-82e4da34d157</webElementGuid>
+      <webElementGuid>8a035196-f783-4e40-adef-97fce9a4819e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Property Specification'])[1]/following::div[1]</value>
-      <webElementGuid>ebbc7be1-5d42-4fd9-b816-28654a26d90d</webElementGuid>
+      <webElementGuid>5c3d009a-6b20-459c-939a-673c65805d6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Group'])[1]/following::div[2]</value>
-      <webElementGuid>d748505d-f862-4089-aa35-de5eaaa7d706</webElementGuid>
+      <webElementGuid>5c5343b3-345a-4a29-97b0-59fae6c86467</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[3]</value>
-      <webElementGuid>6b0b4609-3766-4f57-acf2-ae713cc56d8b</webElementGuid>
+      <webElementGuid>1f615e1c-f167-46d4-a757-53e39ba3f8fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +96,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Product Property' or . = 'Product Property')]</value>
-      <webElementGuid>7105ddc2-9452-4254-9961-f1ef9a982a61</webElementGuid>
+      <webElementGuid>9276ade6-d4e1-4ab1-bdf1-6c3b2e8c5323</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -40,5 +40,13 @@ WebUI.executeJavaScript(
 	Arrays.asList(WebUI.findWebElement(endDateField))
 )
 
+if (!status.toString().blank) {
+	WebUI.click(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/div_Status_combobox"))
+	String valueToSelect = status.toString()
+	TestObject option = findTestObject('Object Repository/Edit_Product_Group/Page_Root Config/div_Status_option', [('option'): valueToSelect])
+	WebUI.waitForElementPresent(option, 5)
+	WebUI.click(option)
+}
+
 WebUI.setText(findTestObject('Edit_Product_Group/Page_Root Config/input_Version_version'), version.toString())
 

@@ -6,12 +6,16 @@
    <elementGuidId>c1eaed03-fb80-429c-881d-be15d90731c4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/div/divă</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.p-toast-message-content</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[3]/div/div/divă</value>
+         <key>BASIC</key>
+         <value>//div[@class = 'p-toast-message-content' and @data-pc-section = 'messagecontent' and (text() = 'NotificationDelete selected product group successfully.' or . = 'NotificationDelete selected product group successfully.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>5859e8a0-34ed-4145-b31c-5700547e4961</webElementGuid>
+      <webElementGuid>aa21e78b-ce87-4423-8cb1-354b42895e8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +41,15 @@
       <name>class</name>
       <type>Main</type>
       <value>p-toast-message-content</value>
-      <webElementGuid>a151e378-a686-4f6b-8573-a4d5273fa886</webElementGuid>
+      <webElementGuid>69aa3729-8114-4867-a820-ae294722806d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-pc-section</name>
       <type>Main</type>
       <value>messagecontent</value>
-      <webElementGuid>44f3d208-7b60-4e54-a6c7-4421a4fd4624</webElementGuid>
+      <webElementGuid>379aae6b-d3e8-4f48-9cb2-8c733b068b5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>NotificationDelete selected product group successfully.</value>
-      <webElementGuid>bda51439-e48f-480e-9d93-fa87de2d7706</webElementGuid>
+      <webElementGuid>71b9fceb-c7fd-4e17-ab06-ac7ad1b770ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;p-toast p-component p-toast-top-right&quot;]/div[1]/div[@class=&quot;p-toast-message p-toast-message-success p-toast-message-leave-active p-toast-message-leave-to&quot;]/div[@class=&quot;p-toast-message-content&quot;]</value>
-      <webElementGuid>215cf1f5-c575-407b-aaad-7c653adcb428</webElementGuid>
+      <webElementGuid>50b3eb22-28c8-4229-b969-74d04595af6f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div</value>
-      <webElementGuid>911153ad-7c77-4314-bc45-8d32fb575f07</webElementGuid>
+      <webElementGuid>0e865c52-b9d3-4669-b1a4-896553133f96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'NotificationDelete selected product group successfully.' or . = 'NotificationDelete selected product group successfully.')]</value>
-      <webElementGuid>d4492584-0862-4c1b-bffb-b2c4f6ea2721</webElementGuid>
+      <webElementGuid>7cc901d5-c684-4a72-9603-7813baedea69</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

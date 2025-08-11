@@ -6,12 +6,12 @@
    <elementGuidId>9f652fc7-097c-4476-9de6-8f2349c4e4c8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.p-dialog-footer</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation'])[1]/following::div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-dialog-footer</value>
       </entry>
       <entry>
          <key>BASIC</key>

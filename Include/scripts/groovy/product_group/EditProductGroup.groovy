@@ -48,10 +48,6 @@ import mongodb.MongoUtils
 import mongodb.MongoConnection
 import org.bson.Document
 
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 
 class EditProductGroup {
 	@When("I edit product group form with oldCode (.*)")
@@ -64,7 +60,7 @@ class EditProductGroup {
 	@And("I edit valid name (.*), code (.*), description (.*), startDate (.*), endDate (.*), status (.*), version (.*)")
 	def edit_product_group(String name, String code, String description, String startDate, String endDate, String status, String version ) {
 		WebUI.callTestCase(findTestCase("Test Cases/ProductGroup/Edit_Product_Group"),
-				[('name'): name, ('code'): code, ('description'): description, ('startDate'): startDate, ('endDate'): endDate, ('version'): version] ,
+				[('name'): name, ('code'): code, ('description'): description, ('startDate'): startDate, ('endDate'): endDate, ('status'): status, ('version'): version] ,
 				FailureHandling.STOP_ON_FAILURE)
 	}
 
@@ -74,21 +70,12 @@ class EditProductGroup {
 		TestObject saveBtn = findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/button_Save")
 		WebUI.scrollToElement(saveBtn, 5)
 		WebUI.click(saveBtn)
-		WebUI.delay(3)
-	}
-
-	@Then("I receive edit successfully notification")
-	def receive_success_edit_noti() {
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject('Object Repository/Edit_Product_Group/Page_Root Config/div_Noti_Product Group updated successfully'),
-				"Product Group updated successfully"
-				)
 	}
 
 	@And("This product group with oldCode (.*) is updated with name (.*), code (.*), description (.*), startDate (.*), endDate (.*), status (.*), version (.*) in database")
 	def checkDB_Edit_Success(String oldCode, String name, String code, String description, String startDate, String endDate, String status, String version) {
 		if (code == oldCode) {
-			def record = MongoUtils.findDocument("ProductPropertyManagement", "ProductGroup", new Document("code":oldCode), 10)
+			def record = MongoUtils.findDocuments("ProductPropertyManagement", "ProductGroup", new Document("code":oldCode), 10)
 			if (record.isEmpty()) {
 				KeywordUtil.markFailed("Không tìm thấy product group với code: ${oldCode}")
 				return
@@ -131,12 +118,13 @@ class EditProductGroup {
 	def save_old_record_in_snapshot(String oldCode) {
 		def records = MongoUtils.findDocuments("ProductPropertyManagement", "ProductGroup", new Document("code": oldCode), 1)
 		if (records.isEmpty()) {
-			KeywordUtil.markFailed("Không tìm thấy product group với code: ${code} trước khi chỉnh sửa.")
+			KeywordUtil.markFailed("Không tìm thấy product group với code: ${oldCode} trước khi chỉnh sửa.")
 			return
 		}
-		GlobalVariable.oldDocSnapshot = record[0]
+		GlobalVariable.oldDocSnapshot = records[0]
 		KeywordUtil.logInfo("Đã lưu snapshot trước khi edit: " + GlobalVariable.oldDocSnapshot.toJson())
 	}
+
 
 	@And("I empty name")
 	def empty_name() {
@@ -147,49 +135,6 @@ class EditProductGroup {
 		new NotificationKeywords().verifyNotificationText(
 				findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/div__Name is required"), "Name is required")
 	}
-	@And("This product group with oldCode (.*) is not updated in database")
-	def checkDB_not_update(String oldCode) {
-		def oldDoc = GlobalVariable.oldDocSnapshot
-		if (oldDoc== null) {
-			KeywordUtil.markFailed("Chưa lưu snapshot trước khi edit. Vui lòng gọi bước lưu trước.")
-			return
-		}
-		def query = new Document("code", oldCode)
-		def record = MongoUtils.findDocuments("ProductPropertyManagement", "ProductGroup", query, 1)
-
-		if (record.isEmpty()) {
-			KeywordUtil.markFailed("Không tìm thấy product group với code: ${oldCode}")
-			return
-		}
-
-		def newDoc = record[0]
-
-		// So sánh tất cả các trường cần thiết
-		def fieldsToCompare = [
-			"name",
-			"code",
-			"description",
-			"startDate",
-			"endDate",
-			"status",
-			"version"
-		]
-		def differences = []
-
-		fieldsToCompare.each { field ->
-			def oldVal = oldDoc.getString(field)?.trim() ?: ""
-			def newVal = newDoc.getString(field)?.trim() ?: ""
-			if (oldVal != newVal) {
-				differences << "❌ Trường '${field}' bị thay đổi: OLD='${oldVal}' | NEW='${newVal}'"
-			}
-		}
-
-		if (differences.isEmpty()) {
-			KeywordUtil.markPassed("✅ Dữ liệu trong DB không thay đổi sau khi nhấn Save.")
-		} else {
-			KeywordUtil.markFailed("❌ DB đã bị thay đổi:\n" + differences.join("\n"))
-		}
-	}
 
 	@And("I empty code")
 	def empty_code() {
@@ -199,16 +144,6 @@ class EditProductGroup {
 	def require_code_noti(){
 		new NotificationKeywords().verifyNotificationText(
 				findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/div__Code is required"), "Code is required")
-	}
-
-	@And("This product group with oldCode (.*) is not updated in database when empty code")
-	def check_DB_empty_code() {
-		def record = MongoUtils.findDocuments("ProductPropertyManagement", "ProductGroup", new Document("code":""), 10)
-		if (record.isEmpty()) {
-			KeywordUtil.markPassed("Khong co ban ghi nao bi bo trong code")
-		}else {
-			KeywordUtil.markFailed("Co ban ghi nao bi bo trong code")
-		}
 	}
 
 	@And("I edit startDate (.*) < today")
@@ -228,41 +163,28 @@ class EditProductGroup {
 		WebUI.setText(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/input__name"), name)
 	}
 
-	@Then("I receive unique name notification")
-	def unique_name_noti(){
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/div_Name is unique"), "Name is unique")
-	}
-
-	@Then("I receive unique code notification")
-	def unique_code_noti(){
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/div_Code is unique"), "Code is unique")
-	}
 	@And("I edit code (.*) same other product group")
 	def edit_same_code(String code) {
 		WebUI.setText(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/input__code"), code)
 	}
 
-	@And("This product group with oldCode (.*) is not updated code (.*) in database")
-	def checkDB_unique_code(String oldCode, String code) {
-		def record = MongoUtils.findDocuments("ProductPropertyManagement", "ProductGroup", new Document("code": code), 10)
-		if (record.size() >= 2) {
-			KeywordUtil.markFailed("Đã cập nhật thành code bị trùng")
-		}else {
-			KeywordUtil.markPassed("Khong co ban ghi nao bi trung code")
-		}
-	}
+	@And("I edit startDate (.*) < endDate (.*)")
+	def edit_date(String startDate, String endDate) {
+		TestObject startDateField = findTestObject('Object Repository/Edit_Product_Group/Page_Root Config/input_ValidFor_startDate')
+		TestObject endDateField = findTestObject('Object Repository/Edit_Product_Group/Page_Root Config/input_ValidFor_endDate')
 
-	@Then("I receive invalid start date notification")
-	def invalid_start_date_noti() {
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/div_The start date must be greater than today"), "The start date must be greater than today")
-	}
+		// Xóa trước rồi gán giá trị ngày mới cho startDate
+		WebUI.executeJavaScript(
+				"arguments[0].value=''; arguments[0].dispatchEvent(new Event('input'));" +
+				"arguments[0].value='" + startDate.toString() + "'; arguments[0].dispatchEvent(new Event('change'))",
+				Arrays.asList(WebUI.findWebElement(startDateField))
+				)
 
-	@Then("I receive invalid date notification")
-	def invalid_date_noti() {
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/div_The start date must be smaller than the end date"), "The start date must be smaller than the end date")
+		// Tương tự cho endDate
+		WebUI.executeJavaScript(
+				"arguments[0].value=''; arguments[0].dispatchEvent(new Event('input'));" +
+				"arguments[0].value='" + endDate.toString() + "'; arguments[0].dispatchEvent(new Event('change'))",
+				Arrays.asList(WebUI.findWebElement(endDateField))
+				)
 	}
 }

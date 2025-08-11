@@ -6,12 +6,12 @@
    <elementGuidId>f57366d4-0b08-4388-8e6a-e2d43360facd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td:nth-of-type(3)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div[2]/div/table/tbody/tr/td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(3)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

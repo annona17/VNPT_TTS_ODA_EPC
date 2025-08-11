@@ -6,12 +6,12 @@
    <elementGuidId>67ae0c21-6126-4d6e-b8ad-d29fcc4b3cd3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.p-inputtext.p-component.w-full</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@type='text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.p-inputtext.p-component.w-full</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_NotificationProduct Group updated successfully</name>
+   <name>div_Notification_popup</name>
    <tag></tag>
-   <elementGuidId>9aaaaa37-9704-43c1-93a9-be694fee37e6</elementGuidId>
+   <elementGuidId>9d4b4de9-3368-4bed-88e7-afbe63ff7efe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'p-toast-message-content' and (text() = 'NotificationProduct Group updated successfully.' or . = 'NotificationProduct Group updated successfully.')]</value>
+         <value>//*[@class = 'p-toast-message-content' and (text() = 'NotificationCreate property specification successfully.' or . = 'NotificationCreate property specification successfully.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class, 'p-toast-message-content') and contains(normalize-space(.), '${text}')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.p-toast-message-content</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[7]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=&quot;NotificationProduct Group updated successfully.&quot;i >> nth=3</value>
-      </entry>
-   </smartLocatorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>390cd297-4e6f-4e8f-b4be-8adb83bb07ea</webElementGuid>
+      <webElementGuid>9f7f4196-fed0-4f02-9912-745ffb0dbddf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-toast-message-content</value>
-      <webElementGuid>4b8ee7a5-36bf-4ded-9a59-ce5c82ea66ad</webElementGuid>
+      <webElementGuid>5f5ea339-5a19-4872-b209-532cb5ec8a60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,15 +43,15 @@
       <name>data-pc-section</name>
       <type>Main</type>
       <value>messagecontent</value>
-      <webElementGuid>af3ea3e4-d986-41d1-91fd-c321f824cef9</webElementGuid>
+      <webElementGuid>b032f68a-2143-4019-9cd5-19eefe138a45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>NotificationProduct Group updated successfully.</value>
-      <webElementGuid>d5b83f09-db54-466a-bea7-4f4206f2f6ab</webElementGuid>
+      <value>NotificationCreate property specification successfully.</value>
+      <webElementGuid>fdf7c026-e5ad-4a77-a1a1-789991a67557</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;p-toast p-component p-toast-top-right&quot;]/div[1]/div[@class=&quot;p-toast-message p-toast-message-success p-toast-message-leave-active p-toast-message-leave-to&quot;]/div[@class=&quot;p-toast-message-content&quot;]</value>
-      <webElementGuid>7b02ff57-0770-4572-bf10-6f8cda3a629c</webElementGuid>
+      <webElementGuid>c35ab1d6-eacc-4921-adc0-625889a0bf4c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[7]</value>
-      <webElementGuid>925e1064-4b74-430f-bccf-54d8283038da</webElementGuid>
+      <webElementGuid>c2289ef4-6fa8-488d-bb38-bce6c1a82cf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::div[7]</value>
-      <webElementGuid>e8503f6c-2728-4a5e-928f-f193bb2c59cb</webElementGuid>
+      <webElementGuid>b87cf278-a0ee-443d-95a0-b0c107423dce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,14 +83,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div</value>
-      <webElementGuid>e1251e3e-254f-4723-ad27-3b5c6332badc</webElementGuid>
+      <webElementGuid>be8bc115-d1b4-4085-bd49-b41c8aecff9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'NotificationProduct Group updated successfully.' or . = 'NotificationProduct Group updated successfully.')]</value>
-      <webElementGuid>2a4491fe-74fe-460a-8d79-e12dd2ea88ca</webElementGuid>
+      <value>//div[(text() = 'NotificationCreate property specification successfully.' or . = 'NotificationCreate property specification successfully.')]</value>
+      <webElementGuid>dbdeac3e-9c91-40ff-bf10-52d2b99a287f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

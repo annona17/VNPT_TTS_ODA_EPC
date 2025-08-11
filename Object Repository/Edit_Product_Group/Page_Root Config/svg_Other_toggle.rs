@@ -10,12 +10,12 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::*[name()='svg'][1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'p-icon p-accordionheader-toggle-icon']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#undefined_accordionheader_other > svg.p-icon.p-accordionheader-toggle-icon</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'p-icon p-accordionheader-toggle-icon']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

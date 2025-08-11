@@ -6,12 +6,11 @@
    <elementGuidId>0357f161-d9c6-4eb9-a59f-039836d79859</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div/div/div/div/div[2]/button[3]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>d0d8a298-7f67-45b1-8456-20f90d81f284</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.p-button.p-component.p-button-secondary.btn-footer.p-button-outlined.mr-2</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[42]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-button.p-component.p-button-secondary.btn-footer.p-button-outlined.mr-2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

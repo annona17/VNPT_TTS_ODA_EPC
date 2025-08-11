@@ -6,12 +6,12 @@
    <elementGuidId>e983aed5-6598-403d-b64d-7ad6cae81700</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#pv_id_157</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='pv_id_157']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pv_id_157</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

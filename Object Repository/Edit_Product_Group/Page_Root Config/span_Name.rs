@@ -6,12 +6,11 @@
    <elementGuidId>cba448c5-e384-46a4-909c-bdbd198153b2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='undefined_accordioncontent_general']/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

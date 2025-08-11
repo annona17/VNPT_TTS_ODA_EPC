@@ -10,12 +10,12 @@
          <value>//tr[td[text()='${code}']]//input[@type='checkbox']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'checkbox']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.p-checkbox.p-component.p-checkbox-checked > input.p-checkbox-input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'checkbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>f33919d3-fec7-4e7b-8815-14c07416d3d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.p-toast-message-content</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[3]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-toast-message-content</value>
       </entry>
       <entry>
          <key>BASIC</key>

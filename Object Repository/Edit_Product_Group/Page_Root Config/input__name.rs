@@ -6,12 +6,16 @@
    <elementGuidId>08b73856-f86a-4168-8e7a-cc4a5bee69bb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;name&quot;]</value>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'name']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@name='name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;name&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,12 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>32db2fa0-4fc7-4b33-8ad7-add57a03adef</webElementGuid>
+      <webElementGuid>624cf551-257e-4280-812d-4ec924e4837c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>25033c99-9433-4d8b-a0e5-aa4d0dc12a6d</webElementGuid>
+      <webElementGuid>52de076d-fa3f-46ea-a0c2-f64ff151f314</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-inputtext p-component p-filled p-inputtext-fluid</value>
-      <webElementGuid>a49e2fdd-0263-4e1b-9612-e11c876182cc</webElementGuid>
+      <webElementGuid>f335a0c9-07db-44fb-8168-2837e21ba9ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>name</value>
-      <webElementGuid>c68afa03-d3c0-4d75-ba77-22a398a20b13</webElementGuid>
+      <webElementGuid>18cc7372-641f-4809-8119-6247f1e5812d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>data-p</name>
       <type>Main</type>
       <value>fluid</value>
-      <webElementGuid>3a0ec7e1-f87b-4627-8dad-f77ef5ab25eb</webElementGuid>
+      <webElementGuid>a7d04db4-3acc-4bba-bd4e-04d3eedac331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-pc-name</name>
       <type>Main</type>
       <value>inputtext</value>
-      <webElementGuid>92fdb172-b42b-4f0a-af68-bb979ff96e93</webElementGuid>
+      <webElementGuid>8cb250bc-7005-4f50-8446-71ac43657361</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>data-pc-section</name>
       <type>Main</type>
       <value>root</value>
-      <webElementGuid>cb29c13d-4461-4fec-aeed-199f81900770</webElementGuid>
+      <webElementGuid>50820038-546a-4b5f-a7e4-1e4fef2d6ad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>value</name>
       <type>Main</type>
       <value>name</value>
-      <webElementGuid>a7376abf-cb2c-4c49-8381-323c1c6c55e8</webElementGuid>
+      <webElementGuid>3ca3da26-65b8-4076-bcc6-a0924dad30f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;undefined_accordioncontent_general&quot;)/div[@class=&quot;p-accordioncontent-content&quot;]/div[@class=&quot;flex flex-col gap-4 w-full pt-4&quot;]/div[@class=&quot;flex items-start w-full gap-4&quot;]/div[@class=&quot;flex flex-col gap-1 flex-1&quot;]/div[@class=&quot;p-iconfield&quot;]/input[@class=&quot;p-inputtext p-component p-filled p-inputtext-fluid&quot;]</value>
-      <webElementGuid>4ddb88b5-6cba-4804-8150-a6a408a7c860</webElementGuid>
+      <webElementGuid>e707cccc-d4e1-45bd-be03-35fd70ec76e5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='name']</value>
-      <webElementGuid>e53886c5-dced-40ff-896f-7b087cd20486</webElementGuid>
+      <webElementGuid>5fc0abbc-c100-4b32-91b4-8b59714a6e20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='undefined_accordioncontent_general']/div/div/div/div/div/input</value>
-      <webElementGuid>a7a4d58f-ec6e-4c7a-ad8e-c38b41f96a43</webElementGuid>
+      <webElementGuid>a51a5e7c-ba84-4580-bfaa-c69b1ab4207c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>bf514e64-ad84-4069-bed9-3a409139d5a8</webElementGuid>
+      <webElementGuid>2b914eb3-e756-4ec0-869d-2c2e48d6917a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'name']</value>
-      <webElementGuid>04efee95-3e69-4f5c-9c32-d38ad2a5e4bb</webElementGuid>
+      <webElementGuid>3c202608-d728-4568-a2d3-3faf4c118ca0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>1db9f98d-139e-406c-bb41-8565ca503063</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.p-select-label</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='pv_id_40']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-select-label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

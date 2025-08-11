@@ -5,11 +5,11 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>true</rerunImmediately>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>83e64a62-e208-4910-a985-dda89e1dfd73</testSuiteGuid>
    <testCaseLink>
       <guid>bc316313-daa5-4e9f-8afd-d015cf35291c</guid>
@@ -26,7 +26,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ca8c0d9f-d813-43e2-9b54-1e0341a89c32</guid>
+      <guid>eb2c0b2b-601a-41cb-bce1-f7649b19e1c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ProductGroup/VerifyDeleteProductGroup</testCaseId>
