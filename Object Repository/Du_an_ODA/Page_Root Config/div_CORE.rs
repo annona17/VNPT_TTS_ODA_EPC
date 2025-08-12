@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_CORE</name>
+   <tag></tag>
+   <elementGuidId>dadd7fd3-3c63-4471-907d-2afaa406e830</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='features']/div/div[6]/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4c3f87d5-101d-4cf9-b26d-88f51bd293de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-4 bg-surface-00 dark:bg-surface-900 h-full</value>
+      <webElementGuid>91422a2f-3088-40a8-904a-fecb9e96e2d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>COREDynamic form builder</value>
+      <webElementGuid>0b2ae4fd-e862-4985-86a2-cb095d7a9595</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;features&quot;)/div[@class=&quot;grid grid-cols-12 gap-4 justify-center&quot;]/div[@class=&quot;md:col-span-12 lg:col-span-4 col-span-12 p-0 lg:pr-8 lg:pb-8 mt-6 lg:mt-0 respon_screen&quot;]/div[@class=&quot;flip-card&quot;]/div[@class=&quot;flip-card-inner&quot;]/div[@class=&quot;flip-card-back&quot;]/div[@class=&quot;dashboard-box&quot;]/div[@class=&quot;p-4 bg-surface-00 dark:bg-surface-900 h-full&quot;]</value>
+      <webElementGuid>1333339e-52c0-42c3-8964-ccb286886986</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='features']/div/div[6]/div/div/div[2]/div/div</value>
+      <webElementGuid>cef049ff-09ed-49d8-80bf-e57b4ea35cc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dynamic form builder'])[1]/following::div[3]</value>
+      <webElementGuid>f8077ffd-8eef-4144-8c17-ba60dd362763</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Module - CORE'])[1]/following::div[3]</value>
+      <webElementGuid>e9672332-cea4-4f3a-9781-69417b68962d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div[2]/div/div</value>
+      <webElementGuid>f44fd26d-5129-41e9-a72d-d2f35978098b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'COREDynamic form builder' or . = 'COREDynamic form builder')]</value>
+      <webElementGuid>a0a3412f-b0f2-4271-8a99-a59bbc35d775</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

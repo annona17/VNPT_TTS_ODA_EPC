@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Property Specification</name>
+   <tag></tag>
+   <elementGuidId>aabafb60-2dde-4ec0-8d0a-c36513b2a925</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'item' and (text() = 'Property Specification' or . = 'Property Specification')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div[2]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Property Specification$/</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f997952a-b2c8-43d5-bd78-b3df5199b4b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item</value>
+      <webElementGuid>508dbdeb-97f9-460b-b780-16de6457304b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Property Specification</value>
+      <webElementGuid>a497836f-3e66-4cba-afdc-c93f835396de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;products&quot;]/div[@class=&quot;product-offer-list&quot;]/div[@class=&quot;item&quot;]</value>
+      <webElementGuid>db217090-305b-4f95-b165-9a4da9ce4824</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div[2]/div/div[2]</value>
+      <webElementGuid>6842e598-b09c-4f74-8efd-60a4fbe0dec0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Group'])[1]/following::div[1]</value>
+      <webElementGuid>87564906-e25d-442a-8493-8de161634de6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property Management'])[3]/following::div[7]</value>
+      <webElementGuid>422eafc6-3f86-47d1-835d-5ea953c56b07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Property'])[1]/preceding::div[1]</value>
+      <webElementGuid>d6ad1e3f-b0c7-4034-916a-5236f420d0b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]</value>
+      <webElementGuid>e4e162b8-ed9e-4b3c-b74d-b3a59215b92c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Property Specification' or . = 'Property Specification')]</value>
+      <webElementGuid>165a5e98-b388-4e37-b59d-f24f17901990</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

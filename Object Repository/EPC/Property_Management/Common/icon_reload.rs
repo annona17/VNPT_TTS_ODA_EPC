@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_reload</name>
+   <tag></tag>
+   <elementGuidId>2325b19e-269d-4230-8fec-88e0df8ba2a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div/div/div/div/div[2]/button[3]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>64067b6d-c99a-4df2-b945-9ce1b3c8009d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pi pi-undo text-[15px] font-black</value>
+      <webElementGuid>211a627d-2b30-4173-b78c-f0429de78228</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;product-group flex h-full overflow-hidden parent-container overflow-y-hidden&quot;]/div[@class=&quot;flex-1&quot;]/div[@class=&quot;p-card p-component !rounded-none bg-white h-full&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[1]/div[@class=&quot;flex flex-row-reverse items-center&quot;]/div[@class=&quot;add-search mr-[10px] mb-[20px]&quot;]/div[@class=&quot;p-inputgroup&quot;]/div[@class=&quot;p-inputgroupaddon&quot;]/button[@class=&quot;p-button p-component p-button-icon-only btn-action btn-end&quot;]/i[@class=&quot;pi pi-undo text-[15px] font-black&quot;]</value>
+      <webElementGuid>3db0b9e4-bdb8-4d73-853d-641942c94f1c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div/div/div/div/div[2]/button[3]/i</value>
+      <webElementGuid>af641253-95ed-4277-9be7-ff8c36e6f50a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]/i</value>
+      <webElementGuid>c5024323-43fa-4e12-a2f6-8a7a27246f84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

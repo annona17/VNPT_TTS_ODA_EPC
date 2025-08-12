@@ -49,18 +49,18 @@ import org.bson.Document
 class AddPropertySpecification {
 	@When("I click button Add to add new Property Specification")
 	def click_add_new_ps() {
-		WebUI.click(findTestObject("Object Repository/Page_Root Config/icon_add"))
+		WebUI.click(findTestObject("Object Repository/EPC/Property_Management/Common/icon_add_new"))
 	}
 	@And("I enter name (.*) code (.*) and description (.*)")
 	def enter_infor(String name, String code, String description) {
-		WebUI.setText(findTestObject("Object Repository/PropertySpecification/Page_Root Config/input__Name_add"), name.toString())
-		WebUI.setText(findTestObject("Object Repository/PropertySpecification/Page_Root Config/input_Code_add"), code.toString())
-		WebUI.setText(findTestObject("Object Repository/PropertySpecification/Page_Root Config/textarea_Description_add"), description.toString())
+		WebUI.setText(findTestObject("Object Repository/EPC/Property_Management/Product_Group/input__name_add"), name.toString())
+		WebUI.setText(findTestObject("Object Repository/EPC/Property_Management/Product_Group/input__code_add"), code.toString())
+		WebUI.setText(findTestObject("Object Repository/EPC/Property_Management/Product_Group/textarea_description_add"), description.toString())
 	}
 
 	@Then("I receive required notifications with text (.*)")
 	def require_noti(String text) {
-		TestObject message = findTestObject("Object Repository/PropertySpecification/Page_Root Config/small__required_noti", [('text'): text])
+		TestObject message = findTestObject("Object Repository/EPC/Property_Management/Property_Specification/small__required_noti", [('text'): text])
 		WebUI.waitForElementPresent(message, 10)
 		WebUI.waitForElementVisible(message, 5)
 		String actualText = WebUI.getText(message)

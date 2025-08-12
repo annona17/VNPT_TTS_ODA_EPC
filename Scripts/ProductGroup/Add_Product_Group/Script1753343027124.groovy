@@ -1,4 +1,3 @@
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -18,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('AddProductGroup/Page_Root Config/input__name'), name.toString())
+WebUI.setText(findTestObject('EPC/Property_Management/Product_Group/input__name_add'), name.toString())
 
-WebUI.setText(findTestObject('AddProductGroup/Page_Root Config/input__code'), code.toString())
+WebUI.setText(findTestObject('EPC/Property_Management/Product_Group/input__code_add'), code.toString())
 
-WebUI.setText(findTestObject('AddProductGroup/Page_Root Config/textarea_description'), description.toString())
+WebUI.setText(findTestObject('EPC/Property_Management/Product_Group/textarea_description_add'), description.toString())
 

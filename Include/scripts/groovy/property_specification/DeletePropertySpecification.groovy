@@ -47,19 +47,18 @@ import cucumber.api.java.en.When
 class DeletePropertySpecification {
 	@When("I delete a Property Specification with code (.*)")
 	def delete_a_ps(String code) {
-		TestObject trashIcon = findTestObject("Object Repository/Page_Root Config/icon_trash_item", [('code'): code])
+		TestObject trashIcon = findTestObject("Object Repository/EPC/Property_Management/Common/icon_trash_item", [('code'): code])
 		WebUI.waitForElementClickable(trashIcon, 10)
 		WebUI.click(trashIcon)
 	}
 	@When("I tick 2 Property Specifications with code1 (.*) and code2 (.*)")
 	def delete_2_ps(String code1, String code2) {
-		TestObject checkox1 = findTestObject("Object Repository/Page_Root Config/input_checkbox", [('code'): code1])
+		TestObject checkox1 = findTestObject("Object Repository/EPC/Property_Management/Common/input_Checkbox_item", [('code'): code1])
 		WebUI.waitForElementClickable(checkox1, 10)
 		WebUI.click(checkox1)
 
-		TestObject checkbox2 = findTestObject("Object Repository/Page_Root Config/input_checkbox", [('code'): code2])
+		TestObject checkbox2 = findTestObject("Object Repository/EPC/Property_Management/Common/input_Checkbox_item", [('code'): code2])
 		WebUI.waitForElementClickable(checkbox2, 10)
 		WebUI.click(checkbox2)
 	}
-	
 }

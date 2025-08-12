@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Product Property_edit</name>
+   <tag></tag>
+   <elementGuidId>ebf2e382-6055-48b6-89c0-b7a87398c888</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-general']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#page-general</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1d2b7207-a719-4c3c-9d92-0cc74259decd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tab-pane active h-full</value>
+      <webElementGuid>2c69b045-2053-47f8-8954-3489fa100a2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>page-general</value>
+      <webElementGuid>aa0da152-b07d-4218-afd4-e6b3456406c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GeneralGeneralProduct*Parent Product*Product Group*Goi data 4Description</value>
+      <webElementGuid>5d4001be-7b24-498e-b932-6023e5dc6638</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;product-property flex h-max parent-container overflow-y-hidden&quot;]/div[3]/div[@class=&quot;property-detail&quot;]/div[@class=&quot;tab-content-parent&quot;]/div[@class=&quot;box-content&quot;]/div[@class=&quot;tab-content-box p-scrollbar&quot;]/div[@class=&quot;pages tab-content h-full&quot;]/div[@id=&quot;page-general&quot;]</value>
+      <webElementGuid>f6904cce-4fd6-491d-a343-61bfcfd4eaa7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='page-general']</value>
+      <webElementGuid>cdf03404-2ff6-42d6-89fc-f29e14f40bed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div[3]/div/div/div[2]/div[2]/div/div</value>
+      <webElementGuid>a28bcb87-e726-40c0-85af-dd049d5baf4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Property'])[2]/following::div[9]</value>
+      <webElementGuid>2c880177-9021-46c2-99ba-e054079b4c4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/div[2]/div/div</value>
+      <webElementGuid>1bed271f-d8f2-4b08-8059-8a1bd3f0a6ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'page-general' and (text() = 'GeneralGeneralProduct*Parent Product*Product Group*Goi data 4Description' or . = 'GeneralGeneralProduct*Parent Product*Product Group*Goi data 4Description')]</value>
+      <webElementGuid>ee010221-9268-468a-af7d-e36e22eb1cf6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

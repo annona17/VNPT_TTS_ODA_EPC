@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_VNPT_menu</name>
+   <tag></tag>
+   <elementGuidId>08f6350d-1787-4eff-96d2-35af99f3ac6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@app/crm']/div/div/div/div/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.pi.pi-bars</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0a66d66a-2a9b-4d9f-ad9c-9f5da8cb342f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pi pi-bars</value>
+      <webElementGuid>ec93ffd6-9b13-4cff-a20c-768ce044ca65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/crm&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-topbar bg-[#282737]&quot;]/div[@class=&quot;layout-topbar-logo-container&quot;]/button[@class=&quot;layout-menu-button layout-topbar-action text-white&quot;]/i[@class=&quot;pi pi-bars&quot;]</value>
+      <webElementGuid>8dc99db0-6af2-4d13-afa6-c107ad7cb091</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/crm']/div/div/div/div/button/i</value>
+      <webElementGuid>022b3152-04da-4bbe-9b1b-c07d05ad6f9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>6260ef85-e196-46b2-9463-82bdb7beeeb4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

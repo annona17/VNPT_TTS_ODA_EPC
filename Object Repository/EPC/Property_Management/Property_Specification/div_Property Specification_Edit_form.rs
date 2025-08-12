@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Property Specification_Edit_form</name>
+   <tag></tag>
+   <elementGuidId>b343c8b1-3c94-4f05-b1bb-9318bf6edbbf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.tab-content-box.p-scrollbar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div[3]/div/div/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f104de68-4df2-42fa-a9ac-de0db7ae7c4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tab-content-box p-scrollbar</value>
+      <webElementGuid>20ed7e65-009e-4edf-9362-a7fa345edc0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GeneralGeneralName*Code*DescriptionOther DetailsValid ForStatusActiveVersion</value>
+      <webElementGuid>40b462e2-5662-4e16-95bc-85aef659a031</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;property flex h-max parent-container overflow-y-hidden&quot;]/div[3]/div[@class=&quot;property-detail&quot;]/div[@class=&quot;tab-content-parent&quot;]/div[@class=&quot;box-content&quot;]/div[@class=&quot;tab-content-box p-scrollbar&quot;]</value>
+      <webElementGuid>19f34b43-2117-437e-a852-5356aa69d57e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div[3]/div/div/div[2]/div[2]</value>
+      <webElementGuid>94654949-6291-440a-a4d1-479e135f1b92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property Specification'])[2]/following::div[6]</value>
+      <webElementGuid>b4f0f8e1-b9a3-499d-9850-307bfaaa9ec2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/div[2]</value>
+      <webElementGuid>ecf93d1d-2285-4017-8a3d-efab5af958cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'GeneralGeneralName*Code*DescriptionOther DetailsValid ForStatusActiveVersion' or . = 'GeneralGeneralName*Code*DescriptionOther DetailsValid ForStatusActiveVersion')]</value>
+      <webElementGuid>2167363e-318b-48be-b216-ae89417214ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

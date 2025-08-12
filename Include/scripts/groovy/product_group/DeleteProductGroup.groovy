@@ -53,22 +53,15 @@ class DeleteProductGroup {
 
 	@When("I delete a product group with code (.*)")
 	def delete_a_product_group(String code) {
-		TestObject trashIcon = findTestObject("Object Repository/Page_Root Config/icon_trash_item", [('code'): code])
+		TestObject trashIcon = findTestObject("Object Repository/EPC/Property_Management/Common/icon_trash_itemObject Repository/EPC/Property_Management/Common/icon_trash_item",
+				[('code'): code])
 		WebUI.waitForElementClickable(trashIcon, 10)
 		WebUI.click(trashIcon)
 	}
 
 	@And("I click Yes in confirm delete popup")
 	def click_yes_to_confirm_delete() {
-		WebUI.click(findTestObject("Object Repository/Page_Root Config/button_Yes"))
-	}
-
-	@Then("I receive a delete successfully notification")
-	def receive_delete_success_noti() {
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject('Object Repository/Page_Root Config/div_NotificationDelete selected product group successfully'),
-				"Delete selected product group successfully"
-				)
+		WebUI.click(findTestObject("Object Repository/EPC/Property_Management/Common/button_Yes_confirm_delete"))
 	}
 
 	@When ("I tick 2 product groups with code1 (.*) and code2 (.*)")
@@ -84,12 +77,12 @@ class DeleteProductGroup {
 
 	@And("I click icon button delete")
 	def click_button_delete() {
-		WebUI.click(findTestObject("Object Repository/Page_Root Config/icon_trash_many"))
+		WebUI.click(findTestObject("Object Repository/EPC/Property_Management/Common/icon_trash_many"))
 	}
 
 	@When("I tick checkbox all")
 	def tick_all() {
-		WebUI.click(findTestObject("Object Repository/Page_Root Config/input_checkbox_all"))
+		WebUI.click(findTestObject("Object Repository/EPC/Property_Management/Common/input_Checkbox_all"))
 		List<WebElement> rows = driver.findElements(By.xpath("//table//tbody/tr"))
 		ArrayList<String> tmp = new ArrayList<String>()
 		for (WebElement row : rows) {
@@ -103,34 +96,18 @@ class DeleteProductGroup {
 
 	@And("I click No in confirm delete popup")
 	def click_No_in_popup_confirm() {
-		WebUI.click(findTestObject("Object Repository/Page_Root Config/button_No"))
+		WebUI.click(findTestObject("Object Repository/EPC/Property_Management/Common/button_No_confirm_delete"))
 	}
 
 	@Then("Popup Confirm delete disappear")
 	def disappear_popup_confirm() {
-		WebUI.verifyElementNotVisible(findTestObject('Object Repository/Page_Root Config/div_ConfirmationAre you sure you want to delete this recordYesNo'))
+		WebUI.verifyElementNotVisible(findTestObject('Object Repository/EPC/Property_Management/Common/div_Confirm_delete'))
 	}
-
 
 	@When("I click delete button")
 	def click_buttom_delete() {
 		GlobalVariable.cntRecord = MongoUtils.countDocuments("ProductPropertyManagement", "ProductGroup")
-		WebUI.click(findTestObject("Object Repository/Page_Root Config/icon_trash_many"))
+		WebUI.click(findTestObject("Object Repository/EPC/Property_Management/Common/icon_trash_many"))
 	}
 
-	@Then("I receive a no product group selected notification")
-	def receive_no_pg_selected_noti() {
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject('Object Repository/Page_Root Config/div_No records selected yet'),
-				"No records selected yet"
-				)
-	}
-
-	@Then("I receive cannot delete notification")
-	def receive_cannot_delete_noti() {
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject('Object Repository/Page_Root Config/div_Cannot delete product group in active'),
-				"Cannot delete product group in active"
-				)
-	}
 }

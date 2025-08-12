@@ -17,14 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Edit_Product_Group/Page_Root Config/input__name'), name.toString())
+WebUI.setText(findTestObject('Object Repository/EPC/Property_Management/Product_Group/input__name_edit'), name.toString())
 
-WebUI.setText(findTestObject('Edit_Product_Group/Page_Root Config/input__code'), code.toString())
+WebUI.setText(findTestObject('Object Repository/EPC/Property_Management/Product_Group/input__code_edit'), code.toString())
 
-WebUI.setText(findTestObject('Edit_Product_Group/Page_Root Config/textarea_Description_description'), description.toString())
+WebUI.setText(findTestObject('Object Repository/EPC/Property_Management/Product_Group/textarea_Description_edit'), description.toString())
 
-TestObject startDateField = findTestObject('Object Repository/Edit_Product_Group/Page_Root Config/input_ValidFor_startDate')
-TestObject endDateField = findTestObject('Object Repository/Edit_Product_Group/Page_Root Config/input_ValidFor_endDate')
+TestObject startDateField = findTestObject('Object Repository/EPC/Property_Management/Product_Group/input_ValidFor_startDate')
+TestObject endDateField = findTestObject('Object Repository/EPC/Property_Management/Product_Group/input_ValidFor_endDate')
 
 // Xóa trước rồi gán giá trị ngày mới cho startDate
 WebUI.executeJavaScript(
@@ -41,12 +41,12 @@ WebUI.executeJavaScript(
 )
 
 if (!status.toString().blank) {
-	WebUI.click(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/div_Status_combobox"))
+	WebUI.click(findTestObject("Object Repository/EPC/Property_Management/Product_Group/div_Status_combobox"))
 	String valueToSelect = status.toString()
-	TestObject option = findTestObject('Object Repository/Edit_Product_Group/Page_Root Config/div_Status_option', [('option'): valueToSelect])
+	TestObject option = findTestObject('Object Repository/EPC/Property_Management/Product_Group/div_Status_option', [('option'): valueToSelect])
 	WebUI.waitForElementPresent(option, 5)
 	WebUI.click(option)
 }
 
-WebUI.setText(findTestObject('Edit_Product_Group/Page_Root Config/input_Version_version'), version.toString())
+WebUI.setText(findTestObject('Object Repository/EPC/Property_Management/Product_Group/input_Version'), version.toString())
 

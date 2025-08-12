@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_QuanLyCaNhan_item</name>
+   <tag></tag>
+   <elementGuidId>8e2ef2b8-1d6d-43de-94b9-377c11bc39c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#/crm/pages/individual/index' and (text() = 'Quản lý cá nhân' or . = 'Quản lý cá nhân')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@app/crm']/div/div/div[2]/ul/li/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.layout-submenu > li > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5044d5dc-235c-4e30-bb91-2ff0117f611c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#/crm/pages/individual/index</value>
+      <webElementGuid>e61f97e0-c73d-49f5-a48d-5b61b9666815</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>3a28fdb0-50b9-4d0f-b7ae-40167ee97ce7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Quản lý cá nhân</value>
+      <webElementGuid>7032820f-47dd-46e5-a021-33cddf7a0142</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/crm&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static&quot;]/div[@class=&quot;layout-sidebar&quot;]/ul[@class=&quot;layout-menu&quot;]/li[@class=&quot;layout-root-menuitem&quot;]/ul[@class=&quot;layout-submenu&quot;]/li[1]/a[1]</value>
+      <webElementGuid>5730124d-f221-48ea-bef8-d16fc512e136</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/crm']/div/div/div[2]/ul/li/ul/li/a</value>
+      <webElementGuid>e573a7d6-7f6b-4b66-a20c-b2d1e222f565</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::a[2]</value>
+      <webElementGuid>75edda2e-305d-4491-a190-c0c3232d629f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overlay'])[1]/following::a[2]</value>
+      <webElementGuid>58793cb5-60f5-485b-8e7d-35093bdfd124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quản lý tổ chức'])[1]/preceding::a[1]</value>
+      <webElementGuid>62f0a38b-e666-4055-8476-33fcbd62bfa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#/crm/pages/individual/index')]</value>
+      <webElementGuid>554c52c1-6281-4e2a-aff3-515db217a4e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/ul/li/a</value>
+      <webElementGuid>e89b5ff5-1a26-4220-8d13-10903d58c2ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#/crm/pages/individual/index' and (text() = 'Quản lý cá nhân' or . = 'Quản lý cá nhân')]</value>
+      <webElementGuid>acb63e73-a7fa-4ac6-88f3-51c174623807</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

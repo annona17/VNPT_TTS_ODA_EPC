@@ -49,7 +49,7 @@ import org.bson.Document
 class EditPropertySpecification {
 	@When("I edit Property specification form with oldCode (.*)")
 	def click_edit_item (String oldCode) {
-		TestObject editIcon = findTestObject("Object Repository/PropertySpecification/Page_Root Config/span_edit_item", [('code'): oldCode])
+		TestObject editIcon = findTestObject("Object Repository/EPC/Property_Management/Common/icon_edit_item", [('code'): oldCode])
 		WebUI.waitForElementClickable(editIcon, 10)
 		WebUI.click(editIcon)
 	}
@@ -63,11 +63,11 @@ class EditPropertySpecification {
 
 	@And("I edit name (.*) same other Property specification")
 	def enter_same_name(String name) {
-		WebUI.setText(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/input__name"), name)
+		WebUI.setText(findTestObject("Object Repository/EPC/Property_Management/Product_Group/input__name_edit"), name)
 	}
 
 	@And("I edit code (.*) same other Property specification")
 	def enter_same_code(String code) {
-		WebUI.setText(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/input__code"), code)
+		WebUI.setText(findTestObject("Object Repository/EPC/Property_Management/Product_Group/input__code_edit"), code)
 	}
 }

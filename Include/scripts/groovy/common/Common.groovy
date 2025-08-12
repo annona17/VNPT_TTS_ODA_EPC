@@ -68,7 +68,7 @@ class Common {
 	//div[contains(@class, 'p-toast-message-content') and contains(., '${text}')]
 	@Then("I receive notification with text (.*)")
 	def receive_noti_with_text(String text) {
-		TestObject message = findTestObject("Object Repository/Page_Root Config/Notification_popup", [('text'): text])
+		TestObject message = findTestObject("Object Repository/EPC/Property_Management/Common/Notification_popup", [('text'): text])
 		WebUI.waitForElementPresent(message, 10)
 		WebUI.waitForElementVisible(message, 5)
 		String actualText = WebUI.getText(message)

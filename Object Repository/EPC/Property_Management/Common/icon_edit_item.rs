@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_edit_item</name>
+   <tag></tag>
+   <elementGuidId>141a8c62-f771-482a-b0b7-40a748a79d11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'pi pi-pen-to-square']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[td[text()='${code}']]//span[@class='pi pi-pen-to-square']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.pi.pi-pen-to-square</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;name name2  &quot;i] >> internal:role=link >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>147d70ff-41c5-49cd-bc11-5aa242906043</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pi pi-pen-to-square</value>
+      <webElementGuid>75e76c89-a191-41c4-8737-b0e601db09f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;product-group flex h-full overflow-hidden parent-container overflow-y-hidden&quot;]/div[@class=&quot;flex-1&quot;]/div[@class=&quot;p-card p-component !rounded-none bg-white h-full&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;p-datatable p-component mt-4 whitespace-pre-wrap&quot;]/div[@class=&quot;p-datatable-table-container&quot;]/table[@class=&quot;p-datatable-table&quot;]/tbody[@class=&quot;p-datatable-tbody&quot;]/tr[@class=&quot;p-row-even&quot;]/td[5]/div[@class=&quot;flex gap-2 items-center&quot;]/a[1]/span[@class=&quot;pi pi-pen-to-square&quot;]</value>
+      <webElementGuid>0f1d3f24-b1d6-42d7-b1a1-28380cf6edcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>pgName</name>
+      <type>Main</type>
+      <value>${pgName}</value>
+      <webElementGuid>4bc4fe03-32f9-4b5a-97fe-570c0476602f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>pgCode</name>
+      <type>Main</type>
+      <value>${pgCode}</value>
+      <webElementGuid>89432944-8473-47d7-b018-b859d6c3f6e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>pgDescription</name>
+      <type>Main</type>
+      <value>${pgDescription}</value>
+      <webElementGuid>f49266d4-9454-49dd-8cdc-dcf5f8e074f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div[2]/div/table/tbody/tr/td[5]/div/a/span</value>
+      <webElementGuid>59179f57-240d-415f-b629-42d0d6f3f93f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/div/a/span</value>
+      <webElementGuid>5805e855-e749-4fd8-b9ba-18524e469707</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

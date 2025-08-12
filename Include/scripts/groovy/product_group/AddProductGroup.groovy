@@ -49,48 +49,27 @@ import notification.NotificationKeywords
 
 class AddProductGroup {
 
-	@And("I enter valid name (.*) code (.*) and description (.*)")
+	@And("I enter name (.*) code (.*) and description (.*)")
 	def enter_infor(String name, String code, String description) {
 		WebUI.callTestCase(findTestCase('Test Cases/ProductGroup/Add_Product_Group'),
 				[('name'): name, ('code'): code, ('description'): description],
 				FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@And('I click save button')
+	@And('I click save add button')
 	def click_save() {
-		WebUI.click(findTestObject('Object Repository/AddProductGroup/Page_Root Config/button_Save'))
-	}
-
-	@Then("I receive successful notification")
-	def receive_success_noti() {
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject('Object Repository/AddProductGroup/Page_Root Config/div_NotificationCreate new product group successfully'),
-				"create new product group successfully"
-				)
+		WebUI.click(findTestObject('Object Repository/EPC/Property_Management/Common/button_Save_add'))
 	}
 
 	@And("I navigate to edit this product group")
 	def navigate_edit_product_group_form() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/AddProductGroup/Page_Root Config/div_Edit_ProductGroup_form'), 5)
-	}
-
-	@And("I empty name (.*) and enter valid code (.*), enter valid description (.*)")
-	def empty_require_name(String name, String code, String description) {
-		WebUI.callTestCase(findTestCase("Test Cases/ProductGroup/Add_Product_Group"),
-				[('name'): name, ('code'): code, ('description'): description],
-				FailureHandling.STOP_ON_FAILURE)
-	}
-	@And("I enter valid name (.*), empty code (.*) and enter valid description (.*)")
-	def enter_same_code(String name, String code, String description) {
-		WebUI.callTestCase(findTestCase("Test Cases/ProductGroup/Add_Product_Group"),
-				[('name'): name, ('code'): code, ('description'): description],
-				FailureHandling.STOP_ON_FAILURE)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/EPC/Property_Management/Product_Group/div_Edit_ProductGroup_form'), 5)
 	}
 
 	@Then("I receive compulsory name notifications")
 	def receive_compulsory_name() {
 		new NotificationKeywords().verifyNotificationText(
-				findTestObject('Object Repository/AddProductGroup/Page_Root Config/div_Name is required'),
+				findTestObject('Object Repository/EPC/Property_Management/Product_Group/div__Name is required'),
 				"Name is required"
 				)
 	}
@@ -98,36 +77,9 @@ class AddProductGroup {
 	@Then("I receive compulsory code notifications")
 	def receive_compulsory_code() {
 		new NotificationKeywords().verifyNotificationText(
-				findTestObject('Object Repository/AddProductGroup/Page_Root Config/div_Code is required'),
+				findTestObject('Object Repository/EPC/Property_Management/Product_Group/div__Name is required'),
 				"Code is required"
 				)
 	}
 
-	@And("I enter the same name (.*) and enter valid code (.*), enter valid description (.*)")
-	def enter_same_name(String name, String code, String description) {
-		WebUI.callTestCase(findTestCase("Test Cases/ProductGroup/Add_Product_Group"),
-				[('name'): name, ('code'): code, ('description'): description],
-				FailureHandling.STOP_ON_FAILURE)
-	}
-	@And("I enter valid name (.*), enter the same code (.*) and enter valid description (.*)")
-	def empty_require_code(String name, String code, String description) {
-		WebUI.callTestCase(findTestCase("Test Cases/ProductGroup/Add_Product_Group"),
-				[('name'): name, ('code'): code, ('description'): description],
-				FailureHandling.STOP_ON_FAILURE)
-	}
-	@Then("I receive exist name notification")
-	def receive_unique_name() {
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject("Object Repository/AddProductGroup/Page_Root Config/div_ErrorName is unique"),
-				"Name is unique"
-				)
-	}
-
-	@Then("I receive exist code notification")
-	def receive_unique_code() {
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject("Object Repository/AddProductGroup/Page_Root Config/div_ErrorCode is unique"),
-				"Code is unique"
-				)
-	}
 }

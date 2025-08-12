@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__text-red-500</name>
+   <tag></tag>
+   <elementGuidId>34dd4fe1-1be2-4402-afa6-eb1c55064a84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-general']/div[3]/div/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f9690e6a-809e-4fd6-988a-f3c6c532a92c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-red-500</value>
+      <webElementGuid>4220e3a3-5b06-4b69-8002-0ec5a4b0527b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Product is required</value>
+      <webElementGuid>39161ddc-a50a-4e23-abf2-92daddb1a7c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;product-property flex h-max parent-container overflow-y-hidden&quot;]/div[3]/div[@class=&quot;property-detail&quot;]/div[@class=&quot;tab-content-parent&quot;]/div[@class=&quot;box-content&quot;]/div[@class=&quot;tab-content-box p-scrollbar&quot;]/div[@class=&quot;pages tab-content h-full&quot;]/div[@id=&quot;page-general&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;flex pl-[0.5rem] text-[13px]&quot;]/div[@class=&quot;w-[65%]&quot;]/span[@class=&quot;text-red-500&quot;]</value>
+      <webElementGuid>cfec9c31-236a-4e25-a3cf-4f3107673f85</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-general']/div[3]/div/div[2]/div/span</value>
+      <webElementGuid>b9767b56-598e-475f-9543-d38ad67c3504</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::span[1]</value>
+      <webElementGuid>3c995817-1d43-43e2-88fa-912f99b68353</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::span[1]</value>
+      <webElementGuid>08c20aa5-802f-4ef0-abb3-fac76d434e05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Product is required']/parent::*</value>
+      <webElementGuid>d46ba18e-b297-42c8-9e6a-d9b76b4e8b19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/span</value>
+      <webElementGuid>e9c3e9ac-4e32-4bfa-a4ae-5688093cd402</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Product is required' or . = 'Product is required')]</value>
+      <webElementGuid>0c4234c7-d217-49f1-a257-0210c5d79252</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

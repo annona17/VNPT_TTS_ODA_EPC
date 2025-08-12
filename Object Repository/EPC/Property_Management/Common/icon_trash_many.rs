@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_trash_many</name>
+   <tag></tag>
+   <elementGuidId>e616f506-10d0-45ed-9efa-0ab1b5581ea4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;product-group flex h-full overflow-hidden parent-container overflow-y-hidden&quot;]/div[@class=&quot;flex-1&quot;]/div[@class=&quot;p-card p-component !rounded-none bg-white h-full&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[1]/div[@class=&quot;flex flex-row-reverse items-center&quot;]/div[@class=&quot;add-search mr-[10px] mb-[20px]&quot;]/div[@class=&quot;p-inputgroup&quot;]/div[@class=&quot;p-inputgroupaddon&quot;]/button[@class=&quot;p-button p-component p-button-icon-only btn-action btn-end&quot;]/i[@class=&quot;fa fa-trash text-[15px] font-black&quot;][count(. | //i[@class = 'fa fa-trash text-[15px] font-black']) = count(//i[@class = 'fa fa-trash text-[15px] font-black'])]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div/div/div/div/div[2]/button[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>f676b18f-c57e-4f9b-868e-78fdb781923c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-trash text-[15px] font-black</value>
+      <webElementGuid>25f60e43-2ab4-4e96-a791-a1c3e08993bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;product-group flex h-full overflow-hidden parent-container overflow-y-hidden&quot;]/div[@class=&quot;flex-1&quot;]/div[@class=&quot;p-card p-component !rounded-none bg-white h-full&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[1]/div[@class=&quot;flex flex-row-reverse items-center&quot;]/div[@class=&quot;add-search mr-[10px] mb-[20px]&quot;]/div[@class=&quot;p-inputgroup&quot;]/div[@class=&quot;p-inputgroupaddon&quot;]/button[@class=&quot;p-button p-component p-button-icon-only btn-action btn-end&quot;]/i[@class=&quot;fa fa-trash text-[15px] font-black&quot;]</value>
+      <webElementGuid>48e2aea9-4228-4e6c-8df1-4e9c09df689d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div/div/div/div/div[2]/button[2]/i</value>
+      <webElementGuid>c66b1149-5661-4318-94dc-ab31d14fc567</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/i</value>
+      <webElementGuid>89227d48-e4fe-49d4-8203-d5e4edbd08ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

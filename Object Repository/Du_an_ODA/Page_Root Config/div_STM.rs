@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_STM</name>
+   <tag></tag>
+   <elementGuidId>f6d6b276-c982-426c-8ec8-e14c703cdf68</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='features']/div/div[8]/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0da02b5c-396f-4d25-99de-bf3d5cf4f77e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-4 bg-surface-00 dark:bg-surface-900 h-full</value>
+      <webElementGuid>6d81c8c3-3da0-4890-b9b5-54c30ba43f9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>STMStock Management</value>
+      <webElementGuid>be296943-ba2f-4a3f-8111-1aeb98492d2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;features&quot;)/div[@class=&quot;grid grid-cols-12 gap-4 justify-center&quot;]/div[@class=&quot;md:col-span-12 lg:col-span-4 col-span-12 p-0 lg:pr-8 lg:pb-8 mt-6 lg:mt-0 respon_screen&quot;]/div[@class=&quot;flip-card&quot;]/div[@class=&quot;flip-card-inner&quot;]/div[@class=&quot;flip-card-back&quot;]/div[@class=&quot;dashboard-box&quot;]/div[@class=&quot;p-4 bg-surface-00 dark:bg-surface-900 h-full&quot;]</value>
+      <webElementGuid>443a38aa-446c-45d4-97f9-e79af8567210</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='features']/div/div[8]/div/div/div[2]/div/div</value>
+      <webElementGuid>d8f5b257-880e-49cf-9bf6-26ff5ee02bee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Management'])[1]/following::div[3]</value>
+      <webElementGuid>406b6d6e-94c1-4c2a-bb11-313b0bb0d750</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Module - STM'])[1]/following::div[3]</value>
+      <webElementGuid>a5a58420-54ab-4850-b8f4-f789b0ce67c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div[2]/div/div</value>
+      <webElementGuid>2ad69ef3-2f71-4382-be7a-5d3a17020e9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'STMStock Management' or . = 'STMStock Management')]</value>
+      <webElementGuid>fd8ba009-de2d-4736-adbf-ea6e54a89050</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

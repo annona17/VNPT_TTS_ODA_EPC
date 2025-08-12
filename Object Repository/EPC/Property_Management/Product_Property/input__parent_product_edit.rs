@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input__parent_product_edit</name>
+   <tag></tag>
+   <elementGuidId>473363d2-28d2-4a87-93b0-346034177619</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='vip199 1']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @placeholder = 'Enter parent product']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7347f868-00e7-4865-a18f-5b55ace48259</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>cdc3fa55-373b-499a-b039-909e01008046</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-filled w-full h-[40px]</value>
+      <webElementGuid>5c7a61d3-ecf8-47ff-a1e6-088f28d26a9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter parent product</value>
+      <webElementGuid>1db0e9c8-3544-4dd4-8f3a-5ff8221d94b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>inputtext</value>
+      <webElementGuid>c5bfd1eb-2cf0-4989-9841-c2acfb3d601d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>6170452b-3978-44fc-b98b-e2814bbedbb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>vip199 1</value>
+      <webElementGuid>df49badb-bb66-44c6-b642-f77d801d18af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;product-property flex h-max parent-container overflow-y-hidden&quot;]/div[3]/div[@class=&quot;property-detail&quot;]/div[@class=&quot;tab-content-parent&quot;]/div[@class=&quot;box-content&quot;]/div[@class=&quot;tab-content-box p-scrollbar&quot;]/div[@class=&quot;pages tab-content h-full&quot;]/div[@id=&quot;page-general&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;flex p-2&quot;]/div[@class=&quot;flex w-[65%]&quot;]/input[@class=&quot;p-inputtext p-component p-filled w-full h-[40px]&quot;]</value>
+      <webElementGuid>c39e07c7-63c8-428f-8689-68ede3bbe559</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='vip199 1']</value>
+      <webElementGuid>20184f7c-10b8-4ecd-88b0-824831f017f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-general']/div[3]/div[2]/div/div/input</value>
+      <webElementGuid>fab9a87d-cb9d-47fb-9d9e-e117ae566368</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/input</value>
+      <webElementGuid>a4c32286-c555-4e2b-842f-bfaecbf4b8c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Enter parent product']</value>
+      <webElementGuid>88f562d5-915e-415c-aa4e-e99445ff2f8e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

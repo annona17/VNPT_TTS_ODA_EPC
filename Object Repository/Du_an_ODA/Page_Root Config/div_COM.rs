@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_COM</name>
+   <tag></tag>
+   <elementGuidId>7f91a0b9-352e-4937-8ec1-1c5424577f8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='features']/div/div[3]/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d8a78874-be52-4111-9a1b-f86919b16644</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-4 bg-surface-00 dark:bg-surface-900 h-full</value>
+      <webElementGuid>2c9b512e-508b-44f3-9f2b-c6172fd4cdb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>COMProduct Description</value>
+      <webElementGuid>66880222-4d9b-44c6-a04a-84fd2c6ef841</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;features&quot;)/div[@class=&quot;grid grid-cols-12 gap-4 justify-center&quot;]/div[@class=&quot;md:col-span-12 lg:col-span-4 col-span-12 p-0 lg:pr-8 lg:pb-8 mt-6 lg:mt-0 respon_screen&quot;]/div[@class=&quot;flip-card&quot;]/div[@class=&quot;flip-card-inner&quot;]/div[@class=&quot;flip-card-back&quot;]/div[@class=&quot;dashboard-box&quot;]/div[@class=&quot;p-4 bg-surface-00 dark:bg-surface-900 h-full&quot;]</value>
+      <webElementGuid>d42344d4-7c76-4dba-97f9-c15c7480337e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='features']/div/div[3]/div/div/div[2]/div/div</value>
+      <webElementGuid>53516eff-35b6-4b4e-ae77-f1ba45b85dfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Description'])[3]/following::div[3]</value>
+      <webElementGuid>56044238-4e42-4d80-b866-f2552d499b32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Module - COM'])[1]/following::div[3]</value>
+      <webElementGuid>84eb3c62-2950-4eb3-9c18-95a4e95fce61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/div/div</value>
+      <webElementGuid>38c9dd90-3fe2-48e9-b96b-bbc22f8cbef8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'COMProduct Description' or . = 'COMProduct Description')]</value>
+      <webElementGuid>28319e1a-4d32-4bca-ac75-2bcd3fabcef8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

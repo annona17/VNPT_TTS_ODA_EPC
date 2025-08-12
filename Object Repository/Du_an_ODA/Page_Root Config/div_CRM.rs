@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_CRM</name>
+   <tag></tag>
+   <elementGuidId>16018c45-d861-4b09-aa4f-5b010bd6a04d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;features&quot;)/div[@class=&quot;grid grid-cols-12 gap-4 justify-center&quot;]/div[@class=&quot;md:col-span-12 lg:col-span-4 col-span-12 p-0 lg:pr-8 lg:pb-8 mt-6 lg:mt-0 respon_screen&quot;]/div[@class=&quot;flip-card&quot;]/div[@class=&quot;flip-card-inner&quot;]/div[@class=&quot;flip-card-back&quot;]/div[@class=&quot;dashboard-box&quot;]/div[@class=&quot;p-4 bg-surface-00 dark:bg-surface-900 h-full&quot;][count(. | //div[@class = 'p-4 bg-surface-00 dark:bg-surface-900 h-full' and (text() = 'CRMProduct Description' or . = 'CRMProduct Description')]) = count(//div[@class = 'p-4 bg-surface-00 dark:bg-surface-900 h-full' and (text() = 'CRMProduct Description' or . = 'CRMProduct Description')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='features']/div/div[5]/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8bda7f1f-6e27-4b75-b952-f23729b305f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-4 bg-surface-00 dark:bg-surface-900 h-full</value>
+      <webElementGuid>151fe606-f711-4e6f-986e-52a23247cac1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CRMProduct Description</value>
+      <webElementGuid>04f139e3-2480-4dac-9a4e-92acbcaffcae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;features&quot;)/div[@class=&quot;grid grid-cols-12 gap-4 justify-center&quot;]/div[@class=&quot;md:col-span-12 lg:col-span-4 col-span-12 p-0 lg:pr-8 lg:pb-8 mt-6 lg:mt-0 respon_screen&quot;]/div[@class=&quot;flip-card&quot;]/div[@class=&quot;flip-card-inner&quot;]/div[@class=&quot;flip-card-back&quot;]/div[@class=&quot;dashboard-box&quot;]/div[@class=&quot;p-4 bg-surface-00 dark:bg-surface-900 h-full&quot;]</value>
+      <webElementGuid>5c9a4e32-b4af-4710-b07e-86d244a1d796</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='features']/div/div[5]/div/div/div[2]/div/div</value>
+      <webElementGuid>a5195350-c74b-4a9d-8665-97ff3fea7229</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Description'])[7]/following::div[3]</value>
+      <webElementGuid>34534630-4ce5-4459-82f3-c48cb9ecb2dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Module - CRM'])[1]/following::div[3]</value>
+      <webElementGuid>ac3e2d83-b80b-4d40-9b33-75a938ed3533</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div[2]/div/div</value>
+      <webElementGuid>3db36e4b-5e1d-440e-93a2-c593f4fc5738</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'CRMProduct Description' or . = 'CRMProduct Description')]</value>
+      <webElementGuid>d00482bc-aad6-4947-82a9-84786a0e4d69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

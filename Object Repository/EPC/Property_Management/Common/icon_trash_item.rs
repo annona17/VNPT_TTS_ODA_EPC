@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_trash_item</name>
+   <tag></tag>
+   <elementGuidId>8fa32bd3-58c5-4e08-9020-6199a2aa139b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'pi pi-trash' and @pgCode = '${pgCode}']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[td[text()='${code}']]//span[contains(@class, 'pi-trash')]&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.pi.pi-trash</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;name name2  &quot;i] >> internal:role=link >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div[2]/div/table/tbody/tr/td[5]/div/a[2]/span</value>
+      <webElementGuid>5bcac7ed-5f24-47c2-a835-3a20d0b7d208</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/span</value>
+      <webElementGuid>d2ee3074-d41b-4e32-a19a-a22ba0ce9df3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

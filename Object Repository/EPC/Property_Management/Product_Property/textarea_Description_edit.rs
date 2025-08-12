@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Description_edit</name>
+   <tag></tag>
+   <elementGuidId>350e00dd-4725-4565-bf25-3b22018ff9ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@value='Danh sách tính chất của gói 2vip199']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@placeholder = 'Enter description']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>e54dd80f-1674-42e8-b185-4e84640beb32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-textarea p-component p-filled w-full h-[80px]</value>
+      <webElementGuid>dbd83e33-dd42-4708-b225-edf6cf04caf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>1d74cdd4-efc5-431c-b5c3-0d4c15d97b9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cols</name>
+      <type>Main</type>
+      <value>30</value>
+      <webElementGuid>2978b012-615d-4ce4-8046-6740b863f64c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter description</value>
+      <webElementGuid>d52627d8-fa0f-492b-a512-ea5526b011da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>de3c1b38-f44e-46b1-8f57-cae2ed7b1f5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>968feee8-0fe5-4df0-af62-9ea35f8c912e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Danh sách tính chất của gói 2vip199</value>
+      <webElementGuid>e9fcc415-1969-4470-9ca4-d8df3330d966</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;product-property flex h-max parent-container overflow-y-hidden&quot;]/div[3]/div[@class=&quot;property-detail&quot;]/div[@class=&quot;tab-content-parent&quot;]/div[@class=&quot;box-content&quot;]/div[@class=&quot;tab-content-box p-scrollbar&quot;]/div[@class=&quot;pages tab-content h-full&quot;]/div[@id=&quot;page-general&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;flex p-2 flex-col&quot;]/div[@class=&quot;flex w-[65%] w-full&quot;]/textarea[@class=&quot;p-textarea p-component p-filled w-full h-[80px]&quot;]</value>
+      <webElementGuid>4221679d-63e5-4f7d-bf1d-7f32b8fcc204</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//textarea[@value='Danh sách tính chất của gói 2vip199']</value>
+      <webElementGuid>6c611785-7994-480a-a3e8-4dd0a764fac1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-general']/div[3]/div[4]/div/div/textarea</value>
+      <webElementGuid>329f683f-3c8f-483a-a57c-7848d76c465d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>6fde8f78-423d-4084-bccb-f5d1caa20ffc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Enter description']</value>
+      <webElementGuid>b653b4c9-e030-48b1-8f5d-ee6ff5a4a7ca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

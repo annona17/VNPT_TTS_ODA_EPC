@@ -52,7 +52,7 @@ import org.bson.Document
 class EditProductGroup {
 	@When("I edit product group form with oldCode (.*)")
 	def click_edit_item (String oldCode) {
-		TestObject editIcon = findTestObject("Object Repository/Page_Root Config/icon_edit_item", [('code'): oldCode])
+		TestObject editIcon = findTestObject("Object Repository/EPC/Property_Management/Common/icon_trash_item", [('code'): oldCode])
 		WebUI.waitForElementClickable(editIcon, 10)
 		WebUI.click(editIcon)
 	}
@@ -64,91 +64,27 @@ class EditProductGroup {
 				FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@And("I click button Save")
+	@And("I click save edit button")
 	def click_Save_Edit() {
-		WebUI.click(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/svg_Other_toggle"))
-		TestObject saveBtn = findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/button_Save")
+		WebUI.click(findTestObject("Object Repository/EPC/Property_Management/Product_Group/svg_Other_toggle"))
+		TestObject saveBtn = findTestObject("Object Repository/EPC/Property_Management/Common/button_Save_edit")
 		WebUI.scrollToElement(saveBtn, 5)
 		WebUI.click(saveBtn)
 	}
 
-	@And("This product group with oldCode (.*) is updated with name (.*), code (.*), description (.*), startDate (.*), endDate (.*), status (.*), version (.*) in database")
-	def checkDB_Edit_Success(String oldCode, String name, String code, String description, String startDate, String endDate, String status, String version) {
-		if (code == oldCode) {
-			def record = MongoUtils.findDocuments("ProductPropertyManagement", "ProductGroup", new Document("code":oldCode), 10)
-			if (record.isEmpty()) {
-				KeywordUtil.markFailed("Không tìm thấy product group với code: ${oldCode}")
-				return
-			}else if (record.size() > 1) {
-				KeywordUtil.markFailed("Đã tạo bản ghi mới thay vì cập nhật với code: ${oldCode}")
-				return
-			}
-			else {
-				def result = record[0]
-				assert result.getString("name") == name : "Tên không khớp. Expected: ${name}, Found: ${result.getString("name")}"
-				assert result.getString("code") == code : "Code không khớp. Expected: ${code}, Found: ${result.getString("code")}"
-				assert result.getString("description") == description
-				assert result.getString("startDate") == startDate
-				assert result.getString("endDate") == endDate
-				assert result.getString("status") == status
-				assert result.getString("version") == version
-
-				KeywordUtil.markPassed("Dữ liệu đã được cập nhật chính xác trong MongoDB.")
-			}
-		}else {
-			def oldRecord = MongoUtils.findDocuments("ProductPropertyManagement", "ProductGroup", new Document("code":oldCode), 1)
-			def record = MongoUtils.findDocuments("ProductPropertyManagement", "ProductGroup", new Document("code":code), 1)
-			if (!oldRecord.isEmpty() || record.isEmpty()) {
-				KeywordUtil.markFailed("Ban ghi chua duoc cap nhat")
-			}else {
-				def result = record[0]
-				assert result.getString("name") == name : "Tên không khớp. Expected: ${name}, Found: ${result.getString("name")}"
-				assert result.getString("code") == code : "Code không khớp. Expected: ${code}, Found: ${result.getString("code")}"
-				assert result.getString("description") == description
-				assert result.getString("startDate") == startDate
-				assert result.getString("endDate") == endDate
-				assert result.getString("status") == status
-				assert result.getString("version") == version
-				KeywordUtil.markPassed("Dữ liệu đã được cập nhật chính xác trong MongoDB.")
-			}
-		}
-	}
-
-	@And("I save old record with oldCode (.*) in snapshot")
-	def save_old_record_in_snapshot(String oldCode) {
-		def records = MongoUtils.findDocuments("ProductPropertyManagement", "ProductGroup", new Document("code": oldCode), 1)
-		if (records.isEmpty()) {
-			KeywordUtil.markFailed("Không tìm thấy product group với code: ${oldCode} trước khi chỉnh sửa.")
-			return
-		}
-		GlobalVariable.oldDocSnapshot = records[0]
-		KeywordUtil.logInfo("Đã lưu snapshot trước khi edit: " + GlobalVariable.oldDocSnapshot.toJson())
-	}
-
-
 	@And("I empty name")
 	def empty_name() {
-		WebUI.setText(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/input__name"), "")
-	}
-	@Then("I receive require name notification")
-	def require_name_noti(){
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/div__Name is required"), "Name is required")
+		WebUI.setText(findTestObject("Object Repository/EPC/Property_Management/Product_Group/input__name_edit"), "")
 	}
 
 	@And("I empty code")
 	def empty_code() {
-		WebUI.setText(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/input__code"), "")
-	}
-	@Then("I receive require code notification")
-	def require_code_noti(){
-		new NotificationKeywords().verifyNotificationText(
-				findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/div__Code is required"), "Code is required")
+		WebUI.setText(findTestObject("Object Repository/EPC/Property_Management/Product_Group/input__code_edit"), "")
 	}
 
 	@And("I edit startDate (.*) < today")
 	def enter_startDate_small(String startDate) {
-		TestObject startDateField = findTestObject('Object Repository/Edit_Product_Group/Page_Root Config/input_ValidFor_startDate')
+		TestObject startDateField = findTestObject('Object Repository/EPC/Property_Management/Product_Group/input_ValidFor_startDate')
 
 		// Xóa trước rồi gán giá trị ngày mới cho startDate
 		WebUI.executeJavaScript(
@@ -160,18 +96,18 @@ class EditProductGroup {
 
 	@And("I edit name (.*) same other product group")
 	def edit_same_name(String name) {
-		WebUI.setText(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/input__name"), name)
+		WebUI.setText(findTestObject("Object Repository/EPC/Property_Management/Product_Group/input__name_edit"), name)
 	}
 
 	@And("I edit code (.*) same other product group")
 	def edit_same_code(String code) {
-		WebUI.setText(findTestObject("Object Repository/Edit_Product_Group/Page_Root Config/input__code"), code)
+		WebUI.setText(findTestObject("Object Repository/EPC/Property_Management/Product_Group/input__code_edit"), code)
 	}
 
 	@And("I edit startDate (.*) < endDate (.*)")
 	def edit_date(String startDate, String endDate) {
-		TestObject startDateField = findTestObject('Object Repository/Edit_Product_Group/Page_Root Config/input_ValidFor_startDate')
-		TestObject endDateField = findTestObject('Object Repository/Edit_Product_Group/Page_Root Config/input_ValidFor_endDate')
+		TestObject startDateField = findTestObject('Object Repository/EPC/Property_Management/Product_Group/input_ValidFor_startDate')
+		TestObject endDateField = findTestObject('Object Repository/EPC/Property_Management/Product_Group/input_ValidFor_endDate')
 
 		// Xóa trước rồi gán giá trị ngày mới cho startDate
 		WebUI.executeJavaScript(

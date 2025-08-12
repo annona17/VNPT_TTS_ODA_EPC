@@ -7,7 +7,7 @@ Feature: Edit Property specification
     And I navigate to Property Specification
     When I edit Property specification form with oldCode <oldCode> 
     And I edit name <name>, code <code>, description <description>, startDate <startDate>, endDate <endDate>, status <status>, version <version> 
-    And I click button Save 
+    And I click save edit button
     Then I receive notification with text <text> 
     #And Record in collection <collectionName> with oldCode <oldCode> is updated with name <name>, code <code>, description <description>, startDate <startDate>, endDate <endDate>, status <status>, version <version> in database
      
@@ -30,7 +30,7 @@ Feature: Edit Property specification
     When I edit Property specification form with oldCode <oldCode>
     #And I save old record with oldCode <oldCode> in snapshot 
    	And I empty name
-    And I click button Save 
+    And I click save edit button
     Then I receive required notifications with text <text>  
     #And Record in collection <collectionName> with oldCode <oldCode> is not updated in database
     
@@ -44,7 +44,7 @@ Feature: Edit Property specification
     And I navigate to Property Specification
     When I edit Property specification form with oldCode <oldCode>
    	And I empty code
-    And I click button Save 
+    And I click save edit button 
     Then I receive required notifications with text <text>  
     #And Record in collection <collectionName> with oldCode <oldCode> is not updated in database when empty code
     
@@ -58,7 +58,7 @@ Feature: Edit Property specification
     And I navigate to Property Specification
     When I edit Property specification form with oldCode <oldCode>
    	And I edit name <name> same other Property specification 
-    And I click button Save 
+    And I click save edit button 
     Then I receive notification with text <text>   
     #And Record in collection <collectionName> with oldCode <oldCode> is not updated in database
    
@@ -72,7 +72,7 @@ Feature: Edit Property specification
     And I navigate to Property Specification
     When I edit Property specification form with oldCode <oldCode>
    	And I edit code <code> same other Property specification 
-    And I click button Save 
+    And I click save edit button 
     Then I receive notification with text <text>  
     #And Record in collection <collectionName> with oldCode <oldCode> is not updated code <code> in database
    
@@ -86,7 +86,7 @@ Feature: Edit Property specification
     And I navigate to Property Specification
     When I edit Property specification form with oldCode <oldCode>
     And I edit startDate <startDate> < today  
-    And I click button Save 
+    And I click save edit button 
     Then I receive notification with text <text>  
     #And Record in collection <collectionName> with oldCode <oldCode> is not updated in database
     
@@ -100,7 +100,7 @@ Feature: Edit Property specification
     And I navigate to Property Specification
     When I edit Property specification form with oldCode <oldCode> 
     And I edit startDate <startDate> < endDate <endDate>  
-    And I click button Save 
+    And I click save edit button 
     Then I receive notification with text <text>  
     #And Record in collection <collectionName> with oldCode <oldCode> is not updated in database
     

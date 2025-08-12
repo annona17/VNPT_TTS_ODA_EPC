@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Diachi_chi_tiet</name>
+   <tag></tag>
+   <elementGuidId>4972c6c8-ef92-4bef-bd17-b0acc494fa29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pv_id_17_tabpanel_0']/div/div[3]/div/div/div[2]/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.pi.pi-map</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>d2a0fe8d-61c9-41aa-9cb4-d3e2b0585ff6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pi pi-map</value>
+      <webElementGuid>2292288e-c17a-42c9-9f21-ab7df9e75098</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pv_id_17_tabpanel_0&quot;)/div[1]/div[@class=&quot;grid grid-cols-8 gap-2 p-4&quot;]/div[@class=&quot;col-span-8 md:col-span-7&quot;]/div[@class=&quot;p-iconfield flex flex-row w-full&quot;]/div[@class=&quot;w-1/4&quot;]/span[@class=&quot;p-inputicon flex h-[40px]&quot;]/i[@class=&quot;pi pi-map&quot;]</value>
+      <webElementGuid>e5873b8a-e4fe-439e-8225-394d5ed6f89f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pv_id_17_tabpanel_0']/div/div[3]/div/div/div[2]/span/i</value>
+      <webElementGuid>6fc8b83f-04e1-4e78-921e-bd0a858f90b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/i</value>
+      <webElementGuid>a13c8686-e875-4333-86be-1a76b80ae82f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

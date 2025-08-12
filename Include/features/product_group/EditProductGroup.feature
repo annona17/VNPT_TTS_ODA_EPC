@@ -7,7 +7,7 @@ Feature: Edit Product group
     And I navigate to product group
     When I edit product group form with oldCode <oldCode> 
     And I edit valid name <name>, code <code>, description <description>, startDate <startDate>, endDate <endDate>, status <status>, version <version> 
-    And I click button Save 
+    And I click save edit button 
     Then I receive notification with text <text> 
     #And Record in collection <collectionName> with oldCode <oldCode> is updated with name <name>, code <code>, description <description>, startDate <startDate>, endDate <endDate>, status <status>, version <version> in database
      
@@ -30,13 +30,13 @@ Feature: Edit Product group
     When I edit product group form with oldCode <oldCode>
     #And I save old record with oldCode <oldCode> in snapshot 
    	And I empty name
-    And I click button Save 
-    Then I receive require name notification  
+    And I click save edit button 
+    Then I receive compulsory name notifications  
     #And Record in collection <collectionName> with oldCode <oldCode> is not updated in database
     
    	Examples: 
 		   | collectionName 	|oldCode	|
-		   | ProductGroup			|data11	|
+		   | ProductGroup			|data11		|
    
    @Invalid
    Scenario Outline: Edit product group when empty code 
@@ -44,13 +44,13 @@ Feature: Edit Product group
     And I navigate to product group
     When I edit product group form with oldCode <oldCode>
    	And I empty code
-    And I click button Save 
-    Then I receive require code notification  
+    And I click save edit button 
+    Then I receive compulsory code notifications  
     #And Record in collection <collectionName> with oldCode <oldCode> is not updated in database when empty code
     
    	Examples: 
 		   | collectionName 	|oldCode	|
-		   | ProductGroup			|data11	|				
+		   | ProductGroup			|data11		|				
    	
    @Invalid
    Scenario Outline: Edit product group when enter the same name 
@@ -58,7 +58,7 @@ Feature: Edit Product group
     And I navigate to product group
     When I edit product group form with oldCode <oldCode>
    	And I edit name <name> same other product group 
-    And I click button Save 
+    And I click save edit button 
     Then I receive notification with text <text>   
     #And Record in collection <collectionName> with oldCode <oldCode> is not updated in database
    
@@ -72,7 +72,7 @@ Feature: Edit Product group
     And I navigate to product group
     When I edit product group form with oldCode <oldCode>
    	And I edit code <code> same other product group 
-    And I click button Save 
+    And I click save edit button 
     Then I receive notification with text <text>  
     #And Record in collection <collectionName> with oldCode <oldCode> is not updated code <code> in database
    
@@ -86,7 +86,7 @@ Feature: Edit Product group
     And I navigate to product group
     When I edit product group form with oldCode <oldCode>
     And I edit startDate <startDate> < today  
-    And I click button Save 
+    And I click save edit button 
     Then I receive notification with text <text> 
     #And Record in collection <collectionName> with oldCode <oldCode> is not updated in database
     
@@ -100,7 +100,7 @@ Feature: Edit Product group
     And I navigate to product group
     When I edit product group form with oldCode <oldCode> 
     And I edit startDate <startDate> < endDate <endDate>  
-    And I click button Save 
+    And I click save edit button 
     Then I receive notification with text <text>  
     #And Record in collection <collectionName> with oldCode <oldCode> is not updated in database
     

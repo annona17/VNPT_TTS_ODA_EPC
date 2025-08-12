@@ -8,7 +8,7 @@ Feature: Add Property Specification
     And I navigate to Property Specification 
     When I click button Add to add new Property Specification  
     And I enter name <name> code <code> and description <description>
-    And I click save button 
+    And I click save add button 
     Then I receive notification with text <text> 
     And I navigate to edit this Property Specification
     #And Record in collection <collectionName> with name <name> and code <code> is in database
@@ -26,7 +26,7 @@ Feature: Add Property Specification
     And I navigate to Property Specification 
     When I click button Add to add new Property Specification  
     And I enter name <name> code <code> and description <description>
-    And I click save button 
+    And I click save add button
     Then I receive required notifications with text <text>
     #And Record in collection <collectionName> with name <name> and code <code> is NOT in database
 
@@ -35,13 +35,13 @@ Feature: Add Property Specification
       |PropertySpecification| 					 	| tt03  | Thuộc tính 03 	| Name is required	|
       |PropertySpecification|							|				|									|	Name is required	|
    
-   @Invalid_1.2_Emplty_code
+   @Invalid_1.2_Empty_code
   Scenario Outline: Add product group when empty require field code
     Given I login ODA successful
     And I navigate to Property Specification 
     When I click button Add to add new Property Specification  
    	And I enter name <name> code <code> and description <description>
-    And I click save button 
+    And I click save add button 
     Then I receive required notifications with text <text>
     #And Record in collection <collectionName> with name <name> and code <code> is NOT in database
 
@@ -55,7 +55,7 @@ Feature: Add Property Specification
     And I navigate to Property Specification 
     When I click button Add to add new Property Specification 
     And I enter name <name> code <code> and description <description>
-    And I click save button 
+    And I click save add button 
     Then I receive notification with text <text> 
     #And Record in collection <collectionName> with name <name> and code <code> is NOT in database
 
@@ -70,7 +70,7 @@ Feature: Add Property Specification
     And I navigate to Property Specification 
     When I click button Add to add new Property Specification   
     And I enter name <name> code <code> and description <description>
-    And I click save button 
+    And I click save add button
     Then I receive required notifications with text <text>  
     #And Record in collection <collectionName> with name <name> and code <code> is NOT in database
 

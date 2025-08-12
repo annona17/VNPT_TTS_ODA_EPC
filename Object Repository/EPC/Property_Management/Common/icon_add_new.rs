@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_add_new</name>
+   <tag></tag>
+   <elementGuidId>0de62243-9525-45b5-b8ef-6a3b3d7f36dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[@class = 'pi pi-plus text-[15px] font-black']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div/div/div[2]/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0fa9651b-899e-4f09-87f6-4b7ad74caf59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pi pi-plus text-[15px] font-black</value>
+      <webElementGuid>bd30c529-8f09-481b-921c-df755d8025b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@app/epc&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;layout-wrapper layout-static layout-static-inactive&quot;]/div[@class=&quot;layout-main-container&quot;]/div[@class=&quot;product-group flex h-full overflow-hidden parent-container overflow-y-hidden&quot;]/div[@class=&quot;flex-1&quot;]/div[@class=&quot;p-card p-component !rounded-none bg-white h-full&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;add-search&quot;]/div[@class=&quot;p-inputgroup&quot;]/div[@class=&quot;p-inputgroupaddon&quot;]/button[@class=&quot;p-button p-component p-button-icon-only btn-action&quot;]/i[@class=&quot;pi pi-plus text-[15px] font-black&quot;]</value>
+      <webElementGuid>d72122b6-48a1-44f4-9a41-92094d1e0d7d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@app/epc']/div/div/div[4]/div/div/div/div/div[2]/div/div/div[2]/button/i</value>
+      <webElementGuid>f1c4417e-9b31-454c-9ed9-6ff77a89bb65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/button/i</value>
+      <webElementGuid>f2e2fbbe-232e-4c59-89f9-a2c61278c310</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

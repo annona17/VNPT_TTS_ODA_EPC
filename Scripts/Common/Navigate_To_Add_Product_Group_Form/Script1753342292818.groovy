@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.mouseOver(findTestObject('Page_Root Config/div_EPCEnterprise Product Catalog'))
+WebUI.mouseOver(findTestObject('Object Repository/Du_an_ODA/div_Project', [('param'):'EPCEnterprise Product Catalog']))
 
-WebUI.click(findTestObject('Page_Root Config/a_EPC'))
+WebUI.click(findTestObject('Object Repository/Du_an_ODA/a_Project', [('param'):'EPC']))
 
-WebUI.click(findTestObject('Page_Root Config/div_Property Management'))
+WebUI.click(findTestObject('Object Repository/EPC/Property_Management/Common/div_Property Management'))
 
-WebUI.click(findTestObject('Page_Root Config/div_Product Group'))
+WebUI.click(findTestObject('Object Repository/EPC/Property_Management/Common/div_Product Group'))
 
-WebUI.click(findTestObject('AddProductGroup/Page_Root Config/icon_addProductGroup'))
+WebUI.click(findTestObject('Object Repository/EPC/Property_Management/Common/icon_add_new'))
 

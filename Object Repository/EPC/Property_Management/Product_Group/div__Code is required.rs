@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__Code is required</name>
+   <tag></tag>
+   <elementGuidId>a8934df6-4a5c-40db-861a-29624effcf26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-message-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pv_id_135_accordioncontent_general']/div/div/div[2]/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Code is required.' or . = 'Code is required.')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2ac5ef45-b5b0-49f2-bc6c-29ff824ef5ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-message-text</value>
+      <webElementGuid>086325cf-93d3-4f95-9ee8-b2f1eddb108c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p</name>
+      <type>Main</type>
+      <value>simple error small</value>
+      <webElementGuid>44125834-70ce-41f4-bd2e-4ded79dd8869</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>5dd9e339-4a61-4234-a78e-2106d0fefa71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Code is required.</value>
+      <webElementGuid>1fe8c5be-ced4-44c3-92f6-8e73a2426f4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pv_id_135_accordioncontent_general&quot;)/div[@class=&quot;p-accordioncontent-content&quot;]/div[@class=&quot;flex flex-col gap-4 w-full pt-4&quot;]/div[@class=&quot;flex items-start w-full gap-4&quot;]/div[@class=&quot;flex flex-col gap-1 flex-1&quot;]/div[@class=&quot;p-message p-component p-message-error p-message-simple p-message-sm&quot;]/div[@class=&quot;p-message-content&quot;]/div[@class=&quot;p-message-text&quot;]</value>
+      <webElementGuid>95580079-7ac7-45c2-8e03-7e30a6e4b92f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pv_id_135_accordioncontent_general']/div/div/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>d5059b8f-5a93-44f0-b4fc-d8f466d7e6fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::div[5]</value>
+      <webElementGuid>f37e4834-f15e-43bb-9ee7-d316e21864bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[2]/preceding::div[1]</value>
+      <webElementGuid>eddf2143-a8ae-4540-a658-953131ef58f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/preceding::div[2]</value>
+      <webElementGuid>4f852aea-e10c-42cc-a90c-c5f4176ba517</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Code is required.']/parent::*</value>
+      <webElementGuid>e4cb1b57-7b71-4809-99d2-583d30ee4082</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div</value>
+      <webElementGuid>22d4458c-1d24-4613-9387-53544a2f5b96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Code is required.' or . = 'Code is required.')]</value>
+      <webElementGuid>0ecf1589-ff34-4896-9c85-d7443fe34aad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
